@@ -176,6 +176,8 @@ Publications
 Journal papers
 ^^^^^^^^^^^^^^
 
+#. Svedružić, Ž. M., Vrbnjak, K., Martinović, M., and Miletić, V. `Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer's Disease. <https://www.mdpi.com/1999-4923/13/4/514>`__, *Pharmaceutics* **13**\ (4), 514, April 8th (2021). `PDF <https://www.mdpi.com/1999-4923/13/4/514/pdf>`__
+#. Svedružić, Ž. M., Odorčić, I., Chang, C. H., and Svedružić, D. `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase. <https://www.nature.com/articles/s41598-020-67079-2>`__ *Sci. Rep.* **10**, 10404, June 26th (2020). `PDF <https://www.nature.com/articles/s41598-020-67079-2.pdf>`__, `PubMed <https://pubmed.ncbi.nlm.nih.gov/32591631/>`__
 #. Pansieri, J., Ostojić, L., Iashchishyn, I. A., Magzoub, M., Wallin, C., Wärmländer, S. K. T. S., Gräslund, A., Nguyen Ngoc, M., Smirnovas, V., Svedružić, Ž., and Morozova-Roche, L. A., `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs. <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ *ACS Chem. Biol.* **14**, 1410–1417 (2019). `PDF <https://pubs.acs.org/doi/pdf/10.1021/acschembio.9b00394>`__, `PubMed <https://www.ncbi.nlm.nih.gov/pubmed/31194501>`__
 #. Miletić, V., Odorčić, I., Nikolić, and P., Svedružić, Ž. M. `In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1. <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410>`__ *PLoS One* **12**\ (4), April 11th (2017). `PDF <https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0174410&type=printable>`__, `PubMed <https://www.ncbi.nlm.nih.gov/pubmed/28399172>`__
 #. Svedružić, Ž. M., Popović, K., and Šendula-Jengić, V. `Decrease in catalytic capacity of γ-secretase can facilitate pathogenesis in sporadic and Familial Alzheimer's disease. <https://www.sciencedirect.com/science/article/pii/S1044743115000901>`__ *Molecular and Cellular Neuroscience* **67**, July 31st (2015). :download:`PDF <../_downloads/Svedruzic-DCCSCFPSFAD-2015.pdf>`
@@ -189,6 +191,11 @@ Journal papers
 #. Svedružić, Ž. M. and Reich, N. O. `The Mechanism of Target Base Attack in DNA Cytosine C5 Methylation. <https://pubs.acs.org/doi/abs/10.1021/bi0496743>`__ *Biochemistry* **43**\ (36), 11460–11473 (2004).
 #. Lehoux E. A., Svedružić, Ž., and Spivey, H. O. `Determination of Specific Radioactivity of [14C] Lactate by Enzymatic Decarboxylation and CO2 Collection. <https://www.sciencedirect.com/science/article/pii/S0003269797923538>`__ *Analytical Biochemistry* **253**\ (2), 190–195 (1997).
 
+Brief reports
+^^^^^^^^^^^^^
+
+#. Rokić, F., Trgovec-Greif, L., Sučić, N., Čemeljić, N., Cekinović Grbeša, Đ., Svedružić, Ž., Rukavina, T., Vugrek, T., and Jurak, I. `Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia <https://link.springer.com/article/10.1007/s00705-021-05029-7>`__, *Arch. Virol.*, March 24th (2021). `PDF <https://link.springer.com/content/pdf/10.1007/s00705-021-05029-7.pdf>`__, `PubMed <https://pubmed.ncbi.nlm.nih.gov/33761008/>`__
+
 Conference abstracts
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -200,11 +207,6 @@ Book chapters
 
 #. Nikolić, P., Miletić, V., Odorčić, I., and Svedružić, Ž. M. (2016). `In Silico Optimization of the First DNA-Independent Mechanism-Based Inhibitor of Mammalian DNA Methyltransferase DNMT1 <https://www.sciencedirect.com/science/article/pii/B9780128028087000058>`__. In: `Epi-Informatics <https://www.sciencedirect.com/science/book/9780128028087>`__, (Boston: Academic Press), pp. 113–153. :download:`PDF <../_downloads/Svedruzic-IOFDIMBIMDMD-2016.pdf>`
 #. Svedružić, Ž. M. `Mammalian DNA methyltransferase Dnmt1: Structure and Function. <https://www.sciencedirect.com/science/article/pii/B9780123876850000068>`__ In: Modification of Mammalian DNA: Mechanism, Management, Missions, and Medical Implications. *Progress in Molecular Biology and Translational Science* **101**, 221–254 (Elsevier, 2011). `PubMed <https://www.ncbi.nlm.nih.gov/pubmed/21507353>`__ :download:`PDF <../_downloads/Svedruzic-Ch6-DNMT1SF-2011.pdf>`
-
-Preprints
-^^^^^^^^^
-
-#. Svedružić, Ž. M., Odorčić, I., Chang, C. H., and Svedružić, D. `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase <https://www.biorxiv.org/content/10.1101/2020.01.22.916023v1>`__.
 
 In preparation
 ^^^^^^^^^^^^^^
