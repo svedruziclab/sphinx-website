@@ -3,7 +3,7 @@
 Research
 ========
 
-The research work in **Bio**\ molecular **S**\ tructure and **F**\ unction **Group**\ oratory is centered on two most prominent problems in biomolecular sciences in 21st century. In the first project we are studying functional organization of the human genome, more specifically activation and inhibition of DNA methylation in human cells. In the second project we are working on neurodegenerative diseases, more specifically on development of novel drug candidates and early diagnostic methods for Alzheimer’s disease. (See :ref:`Projects <lab-projects>` for details.) Different combination of the wet laboratory experiments and the computational studies are used to analyze the pathogenic processes at the molecular level. We have the active collaboration with the different academic laboratories and the pharmaceutical industry.
+The research work in **Bio**\ molecular **S**\ tructure and **F**\ unction **Group** is centered on two most prominent problems in biomolecular sciences in 21st century. In the first project we are studying functional organization of the human genome, more specifically activation and inhibition of DNA methylation in human cells. In the second project we are working on neurodegenerative diseases, more specifically on development of novel drug candidates and early diagnostic methods for Alzheimer’s disease. (See :ref:`Projects <lab-projects>` for details.) Different combination of the wet laboratory experiments and the computational studies are used to analyze the pathogenic processes at the molecular level. We have the active collaboration with the different academic laboratories and the pharmaceutical industry.
 
 Computation and wet laboratory
 ------------------------------
