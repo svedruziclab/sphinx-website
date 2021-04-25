@@ -16,7 +16,7 @@ Biomolecular Structure and Function Group | BioSFGroup
 
 **Postal Address:** Radmile Matejčić 2, University Campus Trsat, HR-51000 Rijeka, Croatia (`on OpenStreetMap <https://www.openstreetmap.org/?mlat=45.32870&mlon=14.46690#map=19/45.32870/14.46690>`__)
 
-**Bio**\ molecular **S**\ tructure and **F**\ unction **Group**\ oratory uses both the :ref:`computational <lab-software>` and the wet :ref:`biochemical research <lab-research>` methods.
+**Bio**\ molecular **S**\ tructure and **F**\ unction **Group** uses both the :ref:`computational <lab-software>` and the wet :ref:`biochemical research <lab-research>` methods.
 
 ..
    **Location:**

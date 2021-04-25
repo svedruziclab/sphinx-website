@@ -115,7 +115,7 @@ Work experience
 
 - `Psychiatry Hospital Rab <https://www.bolnicarab.hr/>`__ (2010 – 2013)
 
-  - **Position:** Supervisor of Laboratory for Medical Biochemistry*
+  - **Position:** Supervisor of Laboratory for Medical Biochemistry
 
 
 Senior scientist appointments
