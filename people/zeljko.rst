@@ -7,7 +7,7 @@
 
 **Positions:** Assistant Professor at `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biomedical Technology <https://www.biotech.uniri.hr/>`__ and Adjunct Faculty at the `Faculty of Medicine <https://www.medri.uniri.hr/>`__
 
-**E-mail:** zeljko-at-svedruziclab.com (:ref:`more, including social networks <lab-contact>`)
+**E-mail:** zeljko-at-svedruziclab.com (:ref:`more, including social networks <group-contact>`)
 
 **Postal Address:** Radmile Matejčić 2, University Campus Trsat, HR-51000 Rijeka, Croatia (`on OpenStreetMap <https://www.openstreetmap.org/?mlat=45.32870&mlon=14.46690#map=19/45.32870/14.46690>`__)
 
@@ -15,7 +15,7 @@
 
 **Phone Number:** +385-51-584-575
 
-**Group:** :ref:`Biomolecular Structure and Function Group (BioSFGroup) <lab-index>`
+**Group:** :ref:`Biomolecular Structure and Function Group (BioSFGroup) <group-index>`
 
 .. contents:: Read more
    :depth: 1

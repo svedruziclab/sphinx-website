@@ -1,4 +1,4 @@
-.. _lab-projects:
+.. _group-projects:
 
 Projects
 ========

@@ -1,4 +1,4 @@
-.. _lab-software:
+.. _group-software:
 
 Software
 ========

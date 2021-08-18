@@ -1,4 +1,4 @@
-.. _lab-contact:
+.. _group-contact:
 
 Contact
 =======

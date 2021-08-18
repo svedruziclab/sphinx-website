@@ -1,4 +1,4 @@
-.. _lab-news:
+.. _group-news:
 
 News
 ====
@@ -70,7 +70,7 @@ Conclusions: Biphasic-drugs like disease-causing mutations can reduce the cataly
 Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase <https://www.nature.com/articles/s41598-020-67079-2>`__ authored by :ref:`Željko Svedružić <zms>`, :ref:`Ivica Odorčić <lab-people>`, `Christopher Chang <https://www.nrel.gov/research/christopher-chang.html>`__, and `Draženka Svedružić <https://www.nrel.gov/research/drazenka-svedruzic.html>`__ has been published today in `Nature Scientific Reports <https://www.nature.com/srep/>`__.
+Our research paper titled `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase <https://www.nature.com/articles/s41598-020-67079-2>`__ authored by :ref:`Željko Svedružić <zms>`, :ref:`Ivica Odorčić <group-people>`, `Christopher Chang <https://www.nrel.gov/research/christopher-chang.html>`__, and `Draženka Svedružić <https://www.nrel.gov/research/drazenka-svedruzic.html>`__ has been published today in `Nature Scientific Reports <https://www.nature.com/srep/>`__.
 
 Abstract
 ^^^^^^^^
@@ -83,11 +83,11 @@ Substrate channeling studies have frequently failed to provide conclusive result
 BioSFGroup featured in Novi list's VOX academiae (17th April 2020)
 ------------------------------------------------------------------
 
-BioSFGroup's :ref:`Patrik Nikolić <lab-people>` and :ref:`Dr. Vedran Miletić <lab-people>`'s figure was featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 27 <_downloads/VOX-academiae-27-2020-04-17.pdf>` (page 2 and page 3: *Epicentar znanstvenika u borbi protiv klimatskih promjena i virusa*).
+BioSFGroup's :ref:`Patrik Nikolić <group-people>` and :ref:`Dr. Vedran Miletić <group-people>`'s figure was featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 27 <_downloads/VOX-academiae-27-2020-04-17.pdf>` (page 2 and page 3: *Epicentar znanstvenika u borbi protiv klimatskih promjena i virusa*).
 
 .. figure:: _images/VOX-academiae-27-2020-04-17.jpg
 
-On page 3, speaking about :ref:`the research being carried out in the lab <lab-research>`, the article writes:
+On page 3, speaking about :ref:`the research being carried out in the lab <group-research>`, the article writes:
 
     *The design of new drugs is a complex research process that nowadays is largely performed on a supercomputer. Six years ago, an interdisciplinary collaboration was started within the Laboratory for the Structure and Function of Biomolecules between Dr. Željko Svedružić from the Department of Biotechnology and Dr. Vedran Miletić from the Department of Informatics. Active use to simulate the molecular dynamics and chemical reactions described by quantum physics and predict ligand binding. So far, highly specific DNA methylation inhibitors have been designed at Bura to be used in tissue regeneration by genetic reprogramming of cells. Such inhibitors are marketed for several thousand dollars per gram, which is two orders of magnitude more expensive than gold.*
 
@@ -130,15 +130,15 @@ European Researchers' Night 2019 (27th September 2019)
 BioSFGroup featured in Novi list's VOX academiae (2nd August 2019)
 ------------------------------------------------------------------
 
-BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>` and :ref:`Dr. Vedran Miletić <lab-people>` were featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 19 <_downloads/VOX-academiae-19-2019-08-02.pdf>` (page 1; pages 6–7: *Istraživači Odjela za biotehnologiju približavaju znanosti građanima*).
+BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>` and :ref:`Dr. Vedran Miletić <group-people>` were featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 19 <_downloads/VOX-academiae-19-2019-08-02.pdf>` (page 1; pages 6–7: *Istraživači Odjela za biotehnologiju približavaju znanosti građanima*).
 
 .. figure:: _images/VOX-academiae-19-2019-08-02-page-1.jpg
 
-Speaking about :ref:`the research being carried out in the lab <lab-research>`, Dr. Svedružić went straight to the point:
+Speaking about :ref:`the research being carried out in the lab <group-research>`, Dr. Svedružić went straight to the point:
 
     *The design of new drugs and the development of disease are complex molecular processes that require the power of supercomputers to be visualized and quantitatively analyzed. In the last four years, we have been in the field of supercomputing protocols for quantum mechanics, bioinformatics and molecular dynamics. We used protocols to solve five problems in the biomedical sciences.*
 
-He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the results <zms-publications>` from :ref:`the present research projects <lab-projects>`.
+He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the results <zms-publications>` from :ref:`the present research projects <group-projects>`.
 
 .. figure:: _images/VOX-academiae-19-2019-08-02-page-6.jpg
 
@@ -148,7 +148,7 @@ He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the re
 Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ authored by `Jonathan Pansieri <https://www.umu.se/en/staff/jonathan-pansieri/>`__, :ref:`Lucija Ostojić <lab-people>`, `Igor A. Iashchishyn <https://www.umu.se/en/staff/igor-iashchishyn/>`__, Mazin Magzoub, Cecilia Wallin, Sebastian K. T. S. Wärmländer, Astrid Gräslund, Mai Nguyen Ngoc, Vytautas Smirnovas, :ref:`Željko Svedružić <zms>`, and `Ludmilla A. Morozova-Roche <https://www.umu.se/en/staff/ludmilla-morozova-roche/>`__ (`research group <https://www.umu.se/en/research/groups/ludmilla-morozova-roche/>`__) has been published today in `ACS Chemical Biology <https://pubs.acs.org/journal/acbcct>`__.
+Our research paper titled `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ authored by `Jonathan Pansieri <https://www.umu.se/en/staff/jonathan-pansieri/>`__, :ref:`Lucija Ostojić <group-people>`, `Igor A. Iashchishyn <https://www.umu.se/en/staff/igor-iashchishyn/>`__, Mazin Magzoub, Cecilia Wallin, Sebastian K. T. S. Wärmländer, Astrid Gräslund, Mai Nguyen Ngoc, Vytautas Smirnovas, :ref:`Željko Svedružić <zms>`, and `Ludmilla A. Morozova-Roche <https://www.umu.se/en/staff/ludmilla-morozova-roche/>`__ (`research group <https://www.umu.se/en/research/groups/ludmilla-morozova-roche/>`__) has been published today in `ACS Chemical Biology <https://pubs.acs.org/journal/acbcct>`__.
 
 Abstract
 ^^^^^^^^
@@ -182,7 +182,7 @@ European Researchers' Night 2018 (28th September 2018)
 In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410>`__ authored by :ref:`Vedran Miletić <lab-people>`, :ref:`Ivica Odorčić <lab-people>`, :ref:`Patrik Nikolić <lab-people>`, and :ref:`Željko Svedružić <zms>` has been published today in `PLOS ONE <https://journals.plos.org/plosone/>`__, the flagship Open Access journal.
+Our research paper titled `In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410>`__ authored by :ref:`Vedran Miletić <group-people>`, :ref:`Ivica Odorčić <group-people>`, :ref:`Patrik Nikolić <group-people>`, and :ref:`Željko Svedružić <zms>` has been published today in `PLOS ONE <https://journals.plos.org/plosone/>`__, the flagship Open Access journal.
 
 Background
 ^^^^^^^^^^
@@ -205,7 +205,7 @@ Presented results can be used for preparation of some highly specific and potent
 BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)
 --------------------------------------------------------------------------------------
 
-BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>`, :ref:`Patrik Nikolić <lab-people>`, and :ref:`Vedran Miletić <lab-people>` were featured in in `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biotechnology <https://www.biotech.uniri.hr/>`__ student journal Biotech – znanost u društvu :download:`issue 3 <_downloads/biotech-znanost-u-drustvu-2014-12.pdf>` (`also available on Issuu <https://issuu.com/biotech_ri/docs/__asopis_2014-novo>`__) from December 2014 (front page; pages 9–16: *interview: doc. dr. sc. Željko Svedružić*; page 17: *interview: Patrik Nikolić*; pages 18–19: *interview: Vedran Miletić*).
+BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>`, :ref:`Patrik Nikolić <group-people>`, and :ref:`Vedran Miletić <group-people>` were featured in in `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biotechnology <https://www.biotech.uniri.hr/>`__ student journal Biotech – znanost u društvu :download:`issue 3 <_downloads/biotech-znanost-u-drustvu-2014-12.pdf>` (`also available on Issuu <https://issuu.com/biotech_ri/docs/__asopis_2014-novo>`__) from December 2014 (front page; pages 9–16: *interview: doc. dr. sc. Željko Svedružić*; page 17: *interview: Patrik Nikolić*; pages 18–19: *interview: Vedran Miletić*).
 
 .. figure:: _images/biotech-znanost-u-drustvu-2014-12-front-page.jpg
 

@@ -1,4 +1,4 @@
-.. _lab-people:
+.. _group-people:
 
 People
 ======
