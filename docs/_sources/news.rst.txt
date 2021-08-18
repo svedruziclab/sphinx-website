@@ -1,8 +1,31 @@
-.. _lab-news:
+.. _group-news:
 
 News
 ====
 
+Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our research paper titled `Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases <https://pubs.acs.org/doi/full/10.1021/acsami.1c04163>`__ has been published in `Volume 13, Issue 23 <https://pubs.acs.org/toc/aamick/13/23>`__ of `ACS <https://www.acs.org/>`__ journal `Applied Materials & Interfaces <https://pubs.acs.org/journal/aamick>`__.
+
+Abstract
+^^^^^^^^
+
+Pro-inflammatory and amyloidogenic S100A9 protein is central to the amyloid-neuroinflammatory cascade in neurodegenerative diseases. Polyoxometalates (POMs) constitute a diverse group of nanomaterials, which showed potency in amyloid inhibition. Here, we have demonstrated that two selected nanosized niobium POMs, Nb10 and TiNb9, can act as potent inhibitors of S100A9 amyloid assembly. Kinetics analysis based on ThT fluorescence experiments showed that addition of either Nb10 or TiNb9 reduces the S100A9 amyloid formation rate and amyloid quantity. Atomic force microscopy imaging demonstrated the complete absence of long S100A9 amyloid fibrils at increasing concentrations of either POM and the presence of only round-shaped and slightly elongated aggregates. Molecular dynamics simulation revealed that both Nb10 and TiNb9 bind to native S100A9 homo-dimer by forming ionic interactions with the positively charged Lys residue-rich patches on the protein surface. The acrylamide quenching of intrinsic fluorescence showed that POM binding does not perturb the Trp 88 environment. The far and near UV circular dichroism revealed no large-scale perturbation of S100A9 secondary and tertiary structures upon POM binding. These indicate that POM binding involves only local conformational changes in the binding sites. By using intrinsic and 8-anilino-1-naphthalene sulfonate fluorescence titration experiments, we found that POMs bind to S100A9 with a Kd of ca. 2.5 μM. We suggest that the region, including Lys 50 to Lys 54 and characterized by high amyloid propensity, could be the key sequences involved in S1009 amyloid self-assembly. The inhibition and complete hindering of S100A9 amyloid pathways may be used in the therapeutic applications targeting the amyloid-neuroinflammatory cascade in neurodegenerative diseases.
+
+`Read the full paper in ACS Applied Materials & Interfaces Volume 13, Issue 23. <https://pubs.acs.org/doi/full/10.1021/acsami.1c04163>`__
+
+Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our research paper titled `Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease <https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828>`__ has been published in `Volume 12, Issue 11 <https://pubs.acs.org/toc/acncdm/12/11>`__ of `ACS <https://www.acs.org/>`__ journal `Chemical Neuroscience <https://pubs.acs.org/journal/acncdm>`__.
+
+Abstract
+^^^^^^^^
+
+Polyphenolic compounds in the Mediterranean diet have received increasing attention due to their protective properties in amyloid neurodegenerative and many other diseases. Here, we have demonstrated for the first time that polyphenol oleuropein aglycone (OleA), which is the most abundant compound in olive oil, has multiple potencies for the inhibition of amyloid self-assembly of pro-inflammatory protein S100A9 and the mitigation of the damaging effect of its amyloids on neuroblastoma SH-SY5Y cells. OleA directly interacts with both native and fibrillar S100A9 as shown by intrinsic fluorescence and molecular dynamic simulation. OleA prevents S100A9 amyloid oligomerization as shown using amyloid oligomer-specific antibodies and cross-β-sheet formation detected by circular dichroism. It decreases the length of amyloid fibrils measured by atomic force microscopy (AFM) as well as reduces the effective rate of amyloid growth and the overall amyloid load as derived from the kinetic analysis of amyloid formation. OleA disintegrates already preformed fibrils of S100A9, converting them into nonfibrillar and nontoxic aggregates as revealed by amyloid thioflavin-T dye binding, AFM, and cytotoxicity assays. At the cellular level, OleA targets S100A9 amyloids already at the membranes as shown by immunofluorescence and fluorescence resonance energy transfer, significantly reducing the amyloid accumulation in GM1 ganglioside containing membrane rafts. OleA increases overall cell viability when neuroblastoma cells are subjected to the amyloid load and alleviates amyloid-induced intracellular rise of reactive oxidative species and free Ca2+. Since S100A9 is both a pro-inflammatory and amyloidogenic protein, OleA may effectively mitigate the pathological consequences of the S100A9-dependent amyloid-neuroinflammatory cascade as well as provide protection from neurodegeneration, if used within the Mediterranean diet as a potential preventive measure.
+
+`Read the full paper in ACS Chemical Neuroscience Volume 12, Issue 11. <https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828>`__
 
 Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer's Disease (8th April 2021)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -47,7 +70,7 @@ Conclusions: Biphasic-drugs like disease-causing mutations can reduce the cataly
 Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase <https://www.nature.com/articles/s41598-020-67079-2>`__ authored by :ref:`Željko Svedružić <zms>`, :ref:`Ivica Odorčić <lab-people>`, `Christopher Chang <https://www.nrel.gov/research/christopher-chang.html>`__, and `Draženka Svedružić <https://www.nrel.gov/research/drazenka-svedruzic.html>`__ has been published today in `Nature Scientific Reports <https://www.nature.com/srep/>`__.
+Our research paper titled `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase <https://www.nature.com/articles/s41598-020-67079-2>`__ authored by :ref:`Željko Svedružić <zms>`, :ref:`Ivica Odorčić <group-people>`, `Christopher Chang <https://www.nrel.gov/research/christopher-chang.html>`__, and `Draženka Svedružić <https://www.nrel.gov/research/drazenka-svedruzic.html>`__ has been published today in `Nature Scientific Reports <https://www.nature.com/srep/>`__.
 
 Abstract
 ^^^^^^^^
@@ -60,11 +83,11 @@ Substrate channeling studies have frequently failed to provide conclusive result
 BioSFGroup featured in Novi list's VOX academiae (17th April 2020)
 ------------------------------------------------------------------
 
-BioSFGroup's :ref:`Patrik Nikolić <lab-people>` and :ref:`Dr. Vedran Miletić <lab-people>`'s figure was featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 27 <_downloads/VOX-academiae-27-2020-04-17.pdf>` (page 2 and page 3: *Epicentar znanstvenika u borbi protiv klimatskih promjena i virusa*).
+BioSFGroup's :ref:`Patrik Nikolić <group-people>` and :ref:`Dr. Vedran Miletić <group-people>`'s figure was featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 27 <_downloads/VOX-academiae-27-2020-04-17.pdf>` (page 2 and page 3: *Epicentar znanstvenika u borbi protiv klimatskih promjena i virusa*).
 
 .. figure:: _images/VOX-academiae-27-2020-04-17.jpg
 
-On page 3, speaking about :ref:`the research being carried out in the lab <lab-research>`, the article writes:
+On page 3, speaking about :ref:`the research being carried out in the lab <group-research>`, the article writes:
 
     *The design of new drugs is a complex research process that nowadays is largely performed on a supercomputer. Six years ago, an interdisciplinary collaboration was started within the Laboratory for the Structure and Function of Biomolecules between Dr. Željko Svedružić from the Department of Biotechnology and Dr. Vedran Miletić from the Department of Informatics. Active use to simulate the molecular dynamics and chemical reactions described by quantum physics and predict ligand binding. So far, highly specific DNA methylation inhibitors have been designed at Bura to be used in tissue regeneration by genetic reprogramming of cells. Such inhibitors are marketed for several thousand dollars per gram, which is two orders of magnitude more expensive than gold.*
 
@@ -107,15 +130,15 @@ European Researchers' Night 2019 (27th September 2019)
 BioSFGroup featured in Novi list's VOX academiae (2nd August 2019)
 ------------------------------------------------------------------
 
-BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>` and :ref:`Dr. Vedran Miletić <lab-people>` were featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 19 <_downloads/VOX-academiae-19-2019-08-02.pdf>` (page 1; pages 6–7: *Istraživači Odjela za biotehnologiju približavaju znanosti građanima*).
+BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>` and :ref:`Dr. Vedran Miletić <group-people>` were featured in `Novi list's <https://www.novilist.hr/>`__ University of Rijeka-themed monthly attachment `VOX academiae <https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/>`__ :download:`issue 19 <_downloads/VOX-academiae-19-2019-08-02.pdf>` (page 1; pages 6–7: *Istraživači Odjela za biotehnologiju približavaju znanosti građanima*).
 
 .. figure:: _images/VOX-academiae-19-2019-08-02-page-1.jpg
 
-Speaking about :ref:`the research being carried out in the lab <lab-research>`, Dr. Svedružić went straight to the point:
+Speaking about :ref:`the research being carried out in the lab <group-research>`, Dr. Svedružić went straight to the point:
 
     *The design of new drugs and the development of disease are complex molecular processes that require the power of supercomputers to be visualized and quantitatively analyzed. In the last four years, we have been in the field of supercomputing protocols for quantum mechanics, bioinformatics and molecular dynamics. We used protocols to solve five problems in the biomedical sciences.*
 
-He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the results <zms-publications>` from :ref:`the present research projects <lab-projects>`.
+He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the results <zms-publications>` from :ref:`the present research projects <group-projects>`.
 
 .. figure:: _images/VOX-academiae-19-2019-08-02-page-6.jpg
 
@@ -125,7 +148,7 @@ He then listed :ref:`the accomplishments <zms-accomplishments>` and :ref:`the re
 Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ authored by `Jonathan Pansieri <https://www.umu.se/en/staff/jonathan-pansieri/>`__, :ref:`Lucija Ostojić <lab-people>`, `Igor A. Iashchishyn <https://www.umu.se/en/staff/igor-iashchishyn/>`__, Mazin Magzoub, Cecilia Wallin, Sebastian K. T. S. Wärmländer, Astrid Gräslund, Mai Nguyen Ngoc, Vytautas Smirnovas, :ref:`Željko Svedružić <zms>`, and `Ludmilla A. Morozova-Roche <https://www.umu.se/en/staff/ludmilla-morozova-roche/>`__ (`research group <https://www.umu.se/en/research/groups/ludmilla-morozova-roche/>`__) has been published today in `ACS Chemical Biology <https://pubs.acs.org/journal/acbcct>`__.
+Our research paper titled `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ authored by `Jonathan Pansieri <https://www.umu.se/en/staff/jonathan-pansieri/>`__, :ref:`Lucija Ostojić <group-people>`, `Igor A. Iashchishyn <https://www.umu.se/en/staff/igor-iashchishyn/>`__, Mazin Magzoub, Cecilia Wallin, Sebastian K. T. S. Wärmländer, Astrid Gräslund, Mai Nguyen Ngoc, Vytautas Smirnovas, :ref:`Željko Svedružić <zms>`, and `Ludmilla A. Morozova-Roche <https://www.umu.se/en/staff/ludmilla-morozova-roche/>`__ (`research group <https://www.umu.se/en/research/groups/ludmilla-morozova-roche/>`__) has been published today in `ACS Chemical Biology <https://pubs.acs.org/journal/acbcct>`__.
 
 Abstract
 ^^^^^^^^
@@ -159,7 +182,7 @@ European Researchers' Night 2018 (28th September 2018)
 In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Our research paper titled `In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410>`__ authored by :ref:`Vedran Miletić <lab-people>`, :ref:`Ivica Odorčić <lab-people>`, :ref:`Patrik Nikolić <lab-people>`, and :ref:`Željko Svedružić <zms>` has been published today in `PLOS ONE <https://journals.plos.org/plosone/>`__, the flagship Open Access journal.
+Our research paper titled `In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410>`__ authored by :ref:`Vedran Miletić <group-people>`, :ref:`Ivica Odorčić <group-people>`, :ref:`Patrik Nikolić <group-people>`, and :ref:`Željko Svedružić <zms>` has been published today in `PLOS ONE <https://journals.plos.org/plosone/>`__, the flagship Open Access journal.
 
 Background
 ^^^^^^^^^^
@@ -182,7 +205,7 @@ Presented results can be used for preparation of some highly specific and potent
 BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)
 --------------------------------------------------------------------------------------
 
-BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>`, :ref:`Patrik Nikolić <lab-people>`, and :ref:`Vedran Miletić <lab-people>` were featured in in `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biotechnology <https://www.biotech.uniri.hr/>`__ student journal Biotech – znanost u društvu :download:`issue 3 <_downloads/biotech-znanost-u-drustvu-2014-12.pdf>` (`also available on Issuu <https://issuu.com/biotech_ri/docs/__asopis_2014-novo>`__) from December 2014 (front page; pages 9–16: *interview: doc. dr. sc. Željko Svedružić*; page 17: *interview: Patrik Nikolić*; pages 18–19: *interview: Vedran Miletić*).
+BioSFGroup's :ref:`Prof. Dr. Željko Svedružić <zms>`, :ref:`Patrik Nikolić <group-people>`, and :ref:`Vedran Miletić <group-people>` were featured in in `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biotechnology <https://www.biotech.uniri.hr/>`__ student journal Biotech – znanost u društvu :download:`issue 3 <_downloads/biotech-znanost-u-drustvu-2014-12.pdf>` (`also available on Issuu <https://issuu.com/biotech_ri/docs/__asopis_2014-novo>`__) from December 2014 (front page; pages 9–16: *interview: doc. dr. sc. Željko Svedružić*; page 17: *interview: Patrik Nikolić*; pages 18–19: *interview: Vedran Miletić*).
 
 .. figure:: _images/biotech-znanost-u-drustvu-2014-12-front-page.jpg
 

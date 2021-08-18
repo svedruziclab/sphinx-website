@@ -7,7 +7,7 @@
 
 **Positions:** Assistant Professor at `University of Rijeka <https://www.uniri.hr/>`__ `Department of Biomedical Technology <https://www.biotech.uniri.hr/>`__ and Adjunct Faculty at the `Faculty of Medicine <https://www.medri.uniri.hr/>`__
 
-**E-mail:** zeljko-at-svedruziclab.com (:ref:`more, including social networks <lab-contact>`)
+**E-mail:** zeljko.svedruzic-at-biotech.uniri.hr (:ref:`more, including social networks <group-contact>`)
 
 **Postal Address:** Radmile Matejčić 2, University Campus Trsat, HR-51000 Rijeka, Croatia (`on OpenStreetMap <https://www.openstreetmap.org/?mlat=45.32870&mlon=14.46690#map=19/45.32870/14.46690>`__)
 
@@ -15,7 +15,7 @@
 
 **Phone Number:** +385-51-584-575
 
-**Group:** :ref:`Biomolecular Structure and Function Group (BioSFGroup) <lab-index>`
+**Group:** :ref:`Biomolecular Structure and Function Group (BioSFGroup) <group-index>`
 
 .. contents:: Read more
    :depth: 1
@@ -176,6 +176,8 @@ Publications
 Journal papers
 ^^^^^^^^^^^^^^
 
+#. Chaudhary, H., Iashchishyn, I. A., Romanova, N. V., Rambaran, M. A., Musteikyte, G., Smirnovas, V., Holmboe, M., Ohlin, C. A., Svedružić, Ž. M., and Morozova-Roche, L. A.. `Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases <https://pubs.acs.org/doi/full/10.1021/acsami.1c04163>`__, *ACS Applied Materials & Interfaces* **13**\ (23), 26721-26734 (2021). `PDF <https://pubs.acs.org/doi/pdf/10.1021/acsami.1c04163>`__
+#. Leri M., Chaudhary H., Iashchishyn, I. A., Pansieri, J., Svedružić, Ž. M., Alcalde, S. G., Musteikyte, G., Smirnovas, V., Stefani, M., Bucciantini, M., and Morozova-Roche, L. A., `Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease <https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828>`__, *ACS Chemical Neuroscience* **12**\ (11), 1905-1918 (2021). `PDF <https://pubs.acs.org/doi/pdf/10.1021/acschemneuro.0c00828>`__
 #. Svedružić, Ž. M., Vrbnjak, K., Martinović, M., and Miletić, V. `Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer's Disease. <https://www.mdpi.com/1999-4923/13/4/514>`__, *Pharmaceutics* **13**\ (4), 514, April 8th (2021). `PDF <https://www.mdpi.com/1999-4923/13/4/514/pdf>`__
 #. Svedružić, Ž. M., Odorčić, I., Chang, C. H., and Svedružić, D. `Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase. <https://www.nature.com/articles/s41598-020-67079-2>`__ *Sci. Rep.* **10**, 10404, June 26th (2020). `PDF <https://www.nature.com/articles/s41598-020-67079-2.pdf>`__, `PubMed <https://pubmed.ncbi.nlm.nih.gov/32591631/>`__
 #. Pansieri, J., Ostojić, L., Iashchishyn, I. A., Magzoub, M., Wallin, C., Wärmländer, S. K. T. S., Gräslund, A., Nguyen Ngoc, M., Smirnovas, V., Svedružić, Ž., and Morozova-Roche, L. A., `Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs. <https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394>`__ *ACS Chem. Biol.* **14**, 1410–1417 (2019). `PDF <https://pubs.acs.org/doi/pdf/10.1021/acschembio.9b00394>`__, `PubMed <https://www.ncbi.nlm.nih.gov/pubmed/31194501>`__
