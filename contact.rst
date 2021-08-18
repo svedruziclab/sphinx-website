@@ -13,7 +13,6 @@ Location
 E-mail
 ------
 
-- zeljko-at-svedruziclab.com
 - zsvedruz-at-biol.pmf.hr
 - zeljko.svedruzic-at-biotech.uniri.hr
 - zeljko.svedruzic-at-med.kuleuven.be
