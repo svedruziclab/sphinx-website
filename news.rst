@@ -3,6 +3,29 @@
 News
 ====
 
+Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our research paper titled `Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases <https://pubs.acs.org/doi/full/10.1021/acsami.1c04163>`__ has been published in `Volume 13, Issue 23 <https://pubs.acs.org/toc/aamick/13/23>`__ of `ACS <https://www.acs.org/>`__ journal `Applied Materials & Interfaces <https://pubs.acs.org/journal/aamick>`__.
+
+Abstract
+^^^^^^^^
+
+Pro-inflammatory and amyloidogenic S100A9 protein is central to the amyloid-neuroinflammatory cascade in neurodegenerative diseases. Polyoxometalates (POMs) constitute a diverse group of nanomaterials, which showed potency in amyloid inhibition. Here, we have demonstrated that two selected nanosized niobium POMs, Nb10 and TiNb9, can act as potent inhibitors of S100A9 amyloid assembly. Kinetics analysis based on ThT fluorescence experiments showed that addition of either Nb10 or TiNb9 reduces the S100A9 amyloid formation rate and amyloid quantity. Atomic force microscopy imaging demonstrated the complete absence of long S100A9 amyloid fibrils at increasing concentrations of either POM and the presence of only round-shaped and slightly elongated aggregates. Molecular dynamics simulation revealed that both Nb10 and TiNb9 bind to native S100A9 homo-dimer by forming ionic interactions with the positively charged Lys residue-rich patches on the protein surface. The acrylamide quenching of intrinsic fluorescence showed that POM binding does not perturb the Trp 88 environment. The far and near UV circular dichroism revealed no large-scale perturbation of S100A9 secondary and tertiary structures upon POM binding. These indicate that POM binding involves only local conformational changes in the binding sites. By using intrinsic and 8-anilino-1-naphthalene sulfonate fluorescence titration experiments, we found that POMs bind to S100A9 with a Kd of ca. 2.5 μM. We suggest that the region, including Lys 50 to Lys 54 and characterized by high amyloid propensity, could be the key sequences involved in S1009 amyloid self-assembly. The inhibition and complete hindering of S100A9 amyloid pathways may be used in the therapeutic applications targeting the amyloid-neuroinflammatory cascade in neurodegenerative diseases.
+
+`Read the full paper in ACS Applied Materials & Interfaces Volume 13, Issue 23. <https://pubs.acs.org/doi/full/10.1021/acsami.1c04163>`__
+
+Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Our research paper titled `Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease <https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828>`__ has been published in `Volume 12, Issue 11 <https://pubs.acs.org/toc/acncdm/12/11>`__ of `ACS <https://www.acs.org/>`__ journal `Chemical Neuroscience <https://pubs.acs.org/journal/acncdm>`__.
+
+Abstract
+^^^^^^^^
+
+Polyphenolic compounds in the Mediterranean diet have received increasing attention due to their protective properties in amyloid neurodegenerative and many other diseases. Here, we have demonstrated for the first time that polyphenol oleuropein aglycone (OleA), which is the most abundant compound in olive oil, has multiple potencies for the inhibition of amyloid self-assembly of pro-inflammatory protein S100A9 and the mitigation of the damaging effect of its amyloids on neuroblastoma SH-SY5Y cells. OleA directly interacts with both native and fibrillar S100A9 as shown by intrinsic fluorescence and molecular dynamic simulation. OleA prevents S100A9 amyloid oligomerization as shown using amyloid oligomer-specific antibodies and cross-β-sheet formation detected by circular dichroism. It decreases the length of amyloid fibrils measured by atomic force microscopy (AFM) as well as reduces the effective rate of amyloid growth and the overall amyloid load as derived from the kinetic analysis of amyloid formation. OleA disintegrates already preformed fibrils of S100A9, converting them into nonfibrillar and nontoxic aggregates as revealed by amyloid thioflavin-T dye binding, AFM, and cytotoxicity assays. At the cellular level, OleA targets S100A9 amyloids already at the membranes as shown by immunofluorescence and fluorescence resonance energy transfer, significantly reducing the amyloid accumulation in GM1 ganglioside containing membrane rafts. OleA increases overall cell viability when neuroblastoma cells are subjected to the amyloid load and alleviates amyloid-induced intracellular rise of reactive oxidative species and free Ca2+. Since S100A9 is both a pro-inflammatory and amyloidogenic protein, OleA may effectively mitigate the pathological consequences of the S100A9-dependent amyloid-neuroinflammatory cascade as well as provide protection from neurodegeneration, if used within the Mediterranean diet as a potential preventive measure.
+
+`Read the full paper in ACS Chemical Neuroscience Volume 12, Issue 11. <https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828>`__
 
 Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer's Disease (8th April 2021)
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
