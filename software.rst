@@ -5,8 +5,8 @@ Software
 
 Research work in BioSFGroup relies on computer software, with strong preference towards the usage of `free and open source software <https://opensource.com/article/17/11/open-source-or-free-software>`__, starting from the operating system:
 
-- our laptops and workstations run `Ubuntu LTS <https://ubuntu.com/download/desktop>`__,
-- our servers run `Debian GNU/Linux <https://www.debian.org/distrib/>`__ or `FreeBSD <https://www.freebsd.org/>`__, and
+- our workstations run `Ubuntu LTS <https://ubuntu.com/download/desktop>`__,
+- our laptops run `Fedora <https://fedoraproject.org/>`__, and
 - our supercomputer `Bura <https://cnrm.uniri.hr/bura/>`__ runs `Red Hat Enterprise Linux <https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux>`__.
 
 The reasons for the preference towards the usage of free and open source software are the limited use conditions, limited extensibility, and license cost of proprietary software, which limit the science that we can do. The developments that we do can be found on `our GitHub organization <https://github.com/svedruziclab>`__.
