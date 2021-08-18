@@ -7,8 +7,9 @@
 Biomolecular Structure and Function Group | BioSFGroup
 ======================================================
 
-    | *My own prejudices are exactly the opposite of the functionalists':* **"If you want to understand function, study structure,"** *I was supposed to have said in my molecular biology days. (I believe I was sailing at the time.) I think that one should approach these problems at all levels, as was done in molecular biology. Classical genetics is, after all, a black-box subject. The important thing was to combine it with biochemistry.* **In nature hybrid species are usually sterile, but in science the reverse is often true. Hybrid subjects are often astonishingly fertile, whereas if a scientific discipline remains too pure it usually wilts.**
-    | -- Franics Crick, `What Mad Pursuit <https://physicstoday.scitation.org/doi/10.1063/1.2811088>`__ (1989)
+    My own prejudices are exactly the opposite of the functionalists': *"If you want to understand function, study structure,"* [emphasis added] I was supposed to have said in my molecular biology days. (I believe I was sailing at the time.) I think that one should approach these problems at all levels, as was done in molecular biology. Classical genetics is, after all, a black-box subject. The important thing was to combine it with biochemistry. *In nature hybrid species are usually sterile, but in science the reverse is often true. Hybrid subjects are often astonishingly fertile, whereas if a scientific discipline remains too pure it usually wilts.* [emphasis added]
+
+-- Franics Crick, `What Mad Pursuit <https://physicstoday.scitation.org/doi/10.1063/1.2811088>`__ (1989)
 
 **Croatian/hrvatski:** Grupa za strukturu i funkciju biomolekula
 
