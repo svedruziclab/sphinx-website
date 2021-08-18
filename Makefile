@@ -18,7 +18,6 @@ help:
 gh-prepare:
 	echo
 	touch _build/dirhtml/.nojekyll
-	echo -n www.svedruziclab.com > _build/dirhtml/CNAME
 	rm -rf docs
 	mv _build/dirhtml docs
 
