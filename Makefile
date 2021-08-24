@@ -18,6 +18,7 @@ help:
 gh-prepare:
 	echo
 	touch _build/dirhtml/.nojekyll
+	sed -i 's/\.html/\//g' _build/dirhtml/sitemap.xml
 	rm -rf docs
 	mv _build/dirhtml docs
 
