@@ -1,12 +1,66 @@
+
 <!DOCTYPE html>
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../_static/javascripts/modernizr.js"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z6K7QSCHCE');
+</script>
+  
+  
     <title>Research &#8212; BioSFGroup homepage</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/material.css" />
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
@@ -16,163 +70,256 @@
     <link rel="search" title="Search" href="../search/" />
     <link rel="next" title="Projects" href="../projects/" />
     <link rel="prev" title="Željko Svedružić" href="../people/zeljko/" />
+  
+   
 
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js "></script>
-<script type="text/javascript" src="../_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-sphinx.js "></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z6K7QSCHCE');
-</script>
-
-  </head><body>
-
-  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../"><span><img src="../_static/logo.svg"></span>
-          BioSFGroup</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
+  </head>
+  <body dir=ltr
+        data-md-color-primary=teal data-md-color-accent=green>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#research" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../" title="BioSFGroup homepage"
+           class="md-header-nav__button md-logo">
+          
+              <img src="../_static/logo.svg" height="26"
+                   alt="BioSFGroup homepage logo">
+          
+        </a>
       </div>
-
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="../">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Recent</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../news/">News</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../people/">People</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../projects/">Projects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../software/">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../teaching/">Teaching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../prospective-students/">Prospective students</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../wiki/">Former wiki</a></li>
-</ul>
-</ul>
-</li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Research</a><ul>
-<li><a class="reference internal" href="#computation-and-wet-laboratory">Computation and wet laboratory</a></li>
-<li><a class="reference internal" href="#industry-partnership">Industry partnership</a></li>
-</ul>
-</li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="../people/zeljko/" title="Previous Chapter: Željko Svedružić"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Željko Svedružić</span>
-    </a>
-  </li>
-  <li>
-    <a href="../projects/" title="Next Chapter: Projects"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Projects &raquo;</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="../_sources/research.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
-
-          
-            
-<form class="navbar-form navbar-right" action="../search/" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">BioSFGroup</span>
+          <span class="md-header-nav__topic"> Research </span>
         </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../search/" method="get" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
+      </div>
       
-  <div class="section" id="research">
-<span id="group-research"></span><h1>Research<a class="headerlink" href="#research" title="Permalink to this headline">¶</a></h1>
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+          </div>
+        </div>
+      
+      
+  
+  <script src="../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../"versions.json"",
+        target_loc = "../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../" class="md-tabs__link">BioSFGroup homepage</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../" title="BioSFGroup homepage" class="md-nav__button md-logo">
+      
+        <img src="../_static/logo.svg" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../"
+       title="BioSFGroup homepage">BioSFGroup</a>
+  </label>
+    <div class="md-nav__source">
+      <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+    </div>
+  
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#research--page-root" class="md-nav__link">Research</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#computation-and-wet-laboratory" class="md-nav__link">Computation and wet laboratory</a>
+        </li>
+        <li class="md-nav__item"><a href="#industry-partnership" class="md-nav__link">Industry partnership</a>
+        </li></ul>
+            </nav>
+        </li>
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="../_sources/research.rst.txt">Show Source</a> </li>
+
+<li id="searchbox" class="md-nav__item"></li>
+
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  
+<span id="group-research"></span><h1 id="research--page-root">Research<a class="headerlink" href="#research--page-root" title="Permalink to this headline">¶</a></h1>
 <p>The research work in <strong>Bio</strong>molecular <strong>S</strong>tructure and <strong>F</strong>unction <strong>Group</strong> is centered on two most prominent problems in biomolecular sciences in 21st century. In the first project we are studying functional organization of the human genome, more specifically activation and inhibition of DNA methylation in human cells. In the second project we are working on neurodegenerative diseases, more specifically on development of novel drug candidates and early diagnostic methods for Alzheimer’s disease. (See <a class="reference internal" href="../projects/#group-projects"><span class="std std-ref">Projects</span></a> for details.) Different combination of the wet laboratory experiments and the computational studies are used to analyze the pathogenic processes at the molecular level. We have the active collaboration with the different academic laboratories and the pharmaceutical industry.</p>
-<div class="section" id="computation-and-wet-laboratory">
-<h2>Computation and wet laboratory<a class="headerlink" href="#computation-and-wet-laboratory" title="Permalink to this headline">¶</a></h2>
+
+<h2 id="computation-and-wet-laboratory">Computation and wet laboratory<a class="headerlink" href="#computation-and-wet-laboratory" title="Permalink to this headline">¶</a></h2>
 <p>We are using classical MD, QM, and QM/MM molecular modelling and simulation software, some of which are <a class="reference internal" href="../software/#software-gromacs"><span class="std std-ref">GROMACS</span></a>, <a class="reference internal" href="../software/#software-autodock-vina"><span class="std std-ref">AutoDock Vina</span></a>, <a class="reference internal" href="../software/#software-rxdock"><span class="std std-ref">RxDock</span></a>, <a class="reference internal" href="../software/#software-cp2k"><span class="std std-ref">CP2K</span></a>, <a class="reference internal" href="../software/#software-gamess-us"><span class="std std-ref">GAMESS (US)</span></a>, <a class="reference internal" href="../software/#software-vmd"><span class="std std-ref">VMD</span></a>, <a class="reference internal" href="../software/#software-pymol"><span class="std std-ref">PyMOL</span></a>, <a class="reference internal" href="../software/#software-chimera"><span class="std std-ref">UCSF Chimera</span></a>, <a class="reference internal" href="../software/#software-avogadro"><span class="std std-ref">Avogadro</span></a>, <a class="reference internal" href="../software/#software-marvin"><span class="std std-ref">ChemAxon Marvin Suite</span></a>, <a class="reference internal" href="../software/#software-ambertools-acpype"><span class="std std-ref">AmberTools</span></a> via <a class="reference internal" href="../software/#software-ambertools-acpype"><span class="std std-ref">acpype</span></a>, and <a class="reference internal" href="../software/#software-open-babel"><span class="std std-ref">Open Babel</span></a>. Supplementary numerical analysis and graph plotting software packages such as <a class="reference internal" href="../software/#software-libreoffice-calc"><span class="std std-ref">LibreOffice Calc</span></a>, <a class="reference internal" href="../software/#software-r-bio3d"><span class="std std-ref">R and Bio3D</span></a>, <a class="reference internal" href="../software/#software-scidavis"><span class="std std-ref">SciDAVis</span></a>, and <a class="reference internal" href="../software/#software-gnuplot"><span class="std std-ref">gnuplot</span></a> are used for analysis and visualization of simulation output. Combining the open source and proprietary computational chemistry software available software, we developed a mostly open source drug design pipelines to empower our research and increase efficiency of wet lab experiments. More info is available on <a class="reference internal" href="../software/#group-software"><span class="std std-ref">the dedicated Software page</span></a>.</p>
 <p>For computations, we rely on the equipment of <a class="reference external" href="https://lab.miletic.net/">Computer Networks, Parallelization, and Simulation Laboratory</a> (provided in part by NVIDIA under <a class="reference external" href="https://lab.miletic.net/en/partnerships-and-collaborations/#gpu-education-center-formerly-cuda-teaching-center">the GPU Education Center program</a>) and <a class="reference external" href="https://crnm.uniri.hr/">Center for Advanced Computing and Modelling</a> at the <a class="reference external" href="https://www.uniri.hr/">University of Rijeka</a>. For wet lab experiments, we use <a class="reference external" href="https://www.biotech.uniri.hr/en/equipment.html">equipment available at the Department of Biomedical Technology</a> at the University of Rijeka.</p>
-</div>
-<div class="section" id="industry-partnership">
-<h2>Industry partnership<a class="headerlink" href="#industry-partnership" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="industry-partnership">Industry partnership<a class="headerlink" href="#industry-partnership" title="Permalink to this headline">¶</a></h2>
 <p>We are developing novel drugs for Alzheimer’s disease in collaboration with <a class="reference external" href="https://www.jivapharma.com/">Jiva Pharmaceuticals</a>, a private pharmaceutical company.</p>
-</div>
-</div>
 
 
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../people/zeljko/" title="Željko Svedružić"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Željko Svedružić </span>
+              </div>
+            </a>
+          
+          
+            <a href="../projects/" title="Projects"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Projects </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
     </div>
-      
-  </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-      
-    </p>
-    <p>
-        &copy; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
-    </p>
-  </div>
-</footer>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.
+              
+          </div>
+            Created using
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 4.1.2.
+             and
+            <a href="https://github.com/bashtage/sphinx-material/">Material for
+              Sphinx</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
   </body>
 </html>

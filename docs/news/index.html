@@ -1,12 +1,66 @@
+
 <!DOCTYPE html>
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../_static/javascripts/modernizr.js"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z6K7QSCHCE');
+</script>
+  
+  
     <title>News &#8212; BioSFGroup homepage</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/material.css" />
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
@@ -16,269 +70,344 @@
     <link rel="search" title="Search" href="../search/" />
     <link rel="next" title="People" href="../people/" />
     <link rel="prev" title="Biomolecular Structure and Function Group | BioSFGroup" href="../" />
+  
+   
 
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js "></script>
-<script type="text/javascript" src="../_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-sphinx.js "></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z6K7QSCHCE');
-</script>
-
-  </head><body>
-
-  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../"><span><img src="../_static/logo.svg"></span>
-          BioSFGroup</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
+  </head>
+  <body dir=ltr
+        data-md-color-primary=teal data-md-color-accent=green>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#news" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../" title="BioSFGroup homepage"
+           class="md-header-nav__button md-logo">
+          
+              <img src="../_static/logo.svg" height="26"
+                   alt="BioSFGroup homepage logo">
+          
+        </a>
       </div>
-
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="../">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Recent</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">News</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../people/">People</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../research/">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../projects/">Projects</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../software/">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../teaching/">Teaching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../prospective-students/">Prospective students</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../wiki/">Former wiki</a></li>
-</ul>
-</ul>
-</li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">News</a><ul>
-<li><a class="reference internal" href="#polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021">Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)</a><ul>
-<li><a class="reference internal" href="#abstract">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021">Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)</a><ul>
-<li><a class="reference internal" href="#id1">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021">Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer’s Disease (8th April 2021)</a><ul>
-<li><a class="reference internal" href="#id2">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021">Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia (24th March 2021)</a><ul>
-<li><a class="reference internal" href="#id3">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020">Structural Analysis of Simultaneous Activation and Inhibition of Gamma-Secretase Activity in Development of Drugs for Alzheimer’s Disease (22nd September 2020)</a><ul>
-<li><a class="reference internal" href="#id4">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)</a><ul>
-<li><a class="reference internal" href="#id5">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020">BioSFGroup featured in Novi list’s VOX academiae (17th April 2020)</a></li>
-<li><a class="reference internal" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published on bioRxiv (23rd January 2020)</a></li>
-<li><a class="reference internal" href="#european-researchers-night-2019-27th-september-2019">European Researchers’ Night 2019 (27th September 2019)</a></li>
-<li><a class="reference internal" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019">BioSFGroup featured in Novi list’s VOX academiae (2nd August 2019)</a></li>
-<li><a class="reference internal" href="#pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019">Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)</a><ul>
-<li><a class="reference internal" href="#id6">Abstract</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#european-researchers-night-2018-28th-september-2018">European Researchers’ Night 2018 (28th September 2018)</a></li>
-<li><a class="reference internal" href="#in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017">In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)</a><ul>
-<li><a class="reference internal" href="#background">Background</a></li>
-<li><a class="reference internal" href="#results">Results</a></li>
-<li><a class="reference internal" href="#conclusions">Conclusions</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015">BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)</a></li>
-</ul>
-</li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="../" title="Previous Chapter: Biomolecular Structure and Function Group | BioSFGroup"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Biomolecular ...</span>
-    </a>
-  </li>
-  <li>
-    <a href="../people/" title="Next Chapter: People"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">People &raquo;</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="../_sources/news.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
-
-          
-            
-<form class="navbar-form navbar-right" action="../search/" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">BioSFGroup</span>
+          <span class="md-header-nav__topic"> News </span>
         </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../search/" method="get" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
+      </div>
       
-  <div class="section" id="news">
-<span id="group-news"></span><h1>News<a class="headerlink" href="#news" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021">
-<h2>Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)<a class="headerlink" href="#polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021" title="Permalink to this headline">¶</a></h2>
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+          </div>
+        </div>
+      
+      
+  
+  <script src="../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../"versions.json"",
+        target_loc = "../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../" class="md-tabs__link">BioSFGroup homepage</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../" title="BioSFGroup homepage" class="md-nav__button md-logo">
+      
+        <img src="../_static/logo.svg" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../"
+       title="BioSFGroup homepage">BioSFGroup</a>
+  </label>
+    <div class="md-nav__source">
+      <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+    </div>
+  
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#news--page-root" class="md-nav__link">News</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021" class="md-nav__link">Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#abstract" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021" class="md-nav__link">Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021" class="md-nav__link">Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer’s Disease (8th April 2021)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id2" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021" class="md-nav__link">Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia (24th March 2021)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id3" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020" class="md-nav__link">Structural Analysis of Simultaneous Activation and Inhibition of Gamma-Secretase Activity in Development of Drugs for Alzheimer’s Disease (22nd September 2020)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id4" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020" class="md-nav__link">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id5" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020" class="md-nav__link">BioSFGroup featured in Novi list’s VOX academiae (17th April 2020)</a>
+        </li>
+        <li class="md-nav__item"><a href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020" class="md-nav__link">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published on bioRxiv (23rd January 2020)</a>
+        </li>
+        <li class="md-nav__item"><a href="#european-researchers-night-2019-27th-september-2019" class="md-nav__link">European Researchers’ Night 2019 (27th September 2019)</a>
+        </li>
+        <li class="md-nav__item"><a href="#biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019" class="md-nav__link">BioSFGroup featured in Novi list’s VOX academiae (2nd August 2019)</a>
+        </li>
+        <li class="md-nav__item"><a href="#pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019" class="md-nav__link">Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id6" class="md-nav__link">Abstract</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#european-researchers-night-2018-28th-september-2018" class="md-nav__link">European Researchers’ Night 2018 (28th September 2018)</a>
+        </li>
+        <li class="md-nav__item"><a href="#in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017" class="md-nav__link">In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#background" class="md-nav__link">Background</a>
+        </li>
+        <li class="md-nav__item"><a href="#results" class="md-nav__link">Results</a>
+        </li>
+        <li class="md-nav__item"><a href="#conclusions" class="md-nav__link">Conclusions</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015" class="md-nav__link">BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)</a>
+        </li></ul>
+            </nav>
+        </li>
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="../_sources/news.rst.txt">Show Source</a> </li>
+
+<li id="searchbox" class="md-nav__item"></li>
+
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  
+<span id="group-news"></span><h1 id="news--page-root">News<a class="headerlink" href="#news--page-root" title="Permalink to this headline">¶</a></h1>
+
+<h2 id="polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021">Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases (3th June 2021)<a class="headerlink" href="#polyoxometalates-as-effective-nano-inhibitors-of-amyloid-aggregation-of-pro-inflammatory-s100a9-protein-involved-in-neurodegenerative-diseases-3th-june-2021" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acsami.1c04163">Polyoxometalates as Effective Nano-inhibitors of Amyloid Aggregation of Pro-inflammatory S100A9 Protein Involved in Neurodegenerative Diseases</a> has been published in <a class="reference external" href="https://pubs.acs.org/toc/aamick/13/23">Volume 13, Issue 23</a> of <a class="reference external" href="https://www.acs.org/">ACS</a> journal <a class="reference external" href="https://pubs.acs.org/journal/aamick">Applied Materials &amp; Interfaces</a>.</p>
-<div class="section" id="abstract">
-<h3>Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="abstract">Abstract<a class="headerlink" href="#abstract" title="Permalink to this headline">¶</a></h3>
 <p>Pro-inflammatory and amyloidogenic S100A9 protein is central to the amyloid-neuroinflammatory cascade in neurodegenerative diseases. Polyoxometalates (POMs) constitute a diverse group of nanomaterials, which showed potency in amyloid inhibition. Here, we have demonstrated that two selected nanosized niobium POMs, Nb10 and TiNb9, can act as potent inhibitors of S100A9 amyloid assembly. Kinetics analysis based on ThT fluorescence experiments showed that addition of either Nb10 or TiNb9 reduces the S100A9 amyloid formation rate and amyloid quantity. Atomic force microscopy imaging demonstrated the complete absence of long S100A9 amyloid fibrils at increasing concentrations of either POM and the presence of only round-shaped and slightly elongated aggregates. Molecular dynamics simulation revealed that both Nb10 and TiNb9 bind to native S100A9 homo-dimer by forming ionic interactions with the positively charged Lys residue-rich patches on the protein surface. The acrylamide quenching of intrinsic fluorescence showed that POM binding does not perturb the Trp 88 environment. The far and near UV circular dichroism revealed no large-scale perturbation of S100A9 secondary and tertiary structures upon POM binding. These indicate that POM binding involves only local conformational changes in the binding sites. By using intrinsic and 8-anilino-1-naphthalene sulfonate fluorescence titration experiments, we found that POMs bind to S100A9 with a Kd of ca. 2.5 μM. We suggest that the region, including Lys 50 to Lys 54 and characterized by high amyloid propensity, could be the key sequences involved in S1009 amyloid self-assembly. The inhibition and complete hindering of S100A9 amyloid pathways may be used in the therapeutic applications targeting the amyloid-neuroinflammatory cascade in neurodegenerative diseases.</p>
 <p><a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acsami.1c04163">Read the full paper in ACS Applied Materials &amp; Interfaces Volume 13, Issue 23.</a></p>
-</div>
-</div>
-<div class="section" id="natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021">
-<h2>Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)<a class="headerlink" href="#natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021">Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease (12th May 2021)<a class="headerlink" href="#natural-compound-from-olive-oil-inhibits-s100a9-amyloid-formation-and-cytotoxicity-implications-for-preventing-alzheimers-disease-12th-may-2021" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828">Natural Compound from Olive Oil Inhibits S100A9 Amyloid Formation and Cytotoxicity: Implications for Preventing Alzheimer’s Disease</a> has been published in <a class="reference external" href="https://pubs.acs.org/toc/acncdm/12/11">Volume 12, Issue 11</a> of <a class="reference external" href="https://www.acs.org/">ACS</a> journal <a class="reference external" href="https://pubs.acs.org/journal/acncdm">Chemical Neuroscience</a>.</p>
-<div class="section" id="id1">
-<h3>Abstract<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id1">Abstract<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>Polyphenolic compounds in the Mediterranean diet have received increasing attention due to their protective properties in amyloid neurodegenerative and many other diseases. Here, we have demonstrated for the first time that polyphenol oleuropein aglycone (OleA), which is the most abundant compound in olive oil, has multiple potencies for the inhibition of amyloid self-assembly of pro-inflammatory protein S100A9 and the mitigation of the damaging effect of its amyloids on neuroblastoma SH-SY5Y cells. OleA directly interacts with both native and fibrillar S100A9 as shown by intrinsic fluorescence and molecular dynamic simulation. OleA prevents S100A9 amyloid oligomerization as shown using amyloid oligomer-specific antibodies and cross-β-sheet formation detected by circular dichroism. It decreases the length of amyloid fibrils measured by atomic force microscopy (AFM) as well as reduces the effective rate of amyloid growth and the overall amyloid load as derived from the kinetic analysis of amyloid formation. OleA disintegrates already preformed fibrils of S100A9, converting them into nonfibrillar and nontoxic aggregates as revealed by amyloid thioflavin-T dye binding, AFM, and cytotoxicity assays. At the cellular level, OleA targets S100A9 amyloids already at the membranes as shown by immunofluorescence and fluorescence resonance energy transfer, significantly reducing the amyloid accumulation in GM1 ganglioside containing membrane rafts. OleA increases overall cell viability when neuroblastoma cells are subjected to the amyloid load and alleviates amyloid-induced intracellular rise of reactive oxidative species and free Ca2+. Since S100A9 is both a pro-inflammatory and amyloidogenic protein, OleA may effectively mitigate the pathological consequences of the S100A9-dependent amyloid-neuroinflammatory cascade as well as provide protection from neurodegeneration, if used within the Mediterranean diet as a potential preventive measure.</p>
 <p><a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acschemneuro.0c00828">Read the full paper in ACS Chemical Neuroscience Volume 12, Issue 11.</a></p>
-</div>
-</div>
-<div class="section" id="structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021">
-<h2>Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer’s Disease (8th April 2021)<a class="headerlink" href="#structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021">Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer’s Disease (8th April 2021)<a class="headerlink" href="#structural-analysis-of-the-simultaneous-activation-and-inhibition-of-secretase-activity-in-the-development-of-drugs-for-alzheimer-s-disease-8th-april-2021" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://www.mdpi.com/1999-4923/13/4/514">Structural Analysis of the Simultaneous Activation and Inhibition of γ-Secretase Activity in the Development of Drugs for Alzheimer’s Disease</a> has been published in special issue <a class="reference external" href="https://www.mdpi.com/journal/pharmaceutics/special_issues/Drug_Candidates">Covalent Inhibitors as Selective Drug Candidates</a> of <a class="reference external" href="https://www.mdpi.com/">MDPI</a> open access journal <a class="reference external" href="https://www.mdpi.com/journal/pharmaceutics">Pharmaceutics</a>.</p>
-<div class="section" id="id2">
-<h3>Abstract<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id2">Abstract<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <p><strong>Significance:</strong> The majority of the drugs which target membrane-embedded protease γ-secretase show an unusual biphasic activation–inhibition dose-response in cells, model animals, and humans. Semagacestat and avagacestat are two biphasic drugs that can facilitate cognitive decline in patients with Alzheimer’s disease. Initial mechanistic studies showed that the biphasic drugs, and pathogenic mutations, can produce the same type of changes in γ-secretase activity. <strong>Results:</strong> DAPT, semagacestat LY-411,575, and avagacestat are four drugs that show different binding constants, and a biphasic activation–inhibition dose-response for amyloid-β-40 products in SH-SY5 cells. Multiscale molecular dynamics studies have shown that all four drugs bind to the most mobile parts in the presenilin structure, at different ends of the 29 Å long active site tunnel. The biphasic dose-response assays are a result of the modulation of γ-secretase activity by the concurrent binding of multiple drug molecules at each end of the active site tunnel. The drugs activate γ-secretase by facilitating the opening of the active site tunnel, when the rate-limiting step is the tunnel opening, and the formation of the enzyme–substrate complex. The drugs inhibit γ-secretase as uncompetitive inhibitors by binding next to the substrate, to dynamic enzyme structures which regulate processive catalysis. The drugs can modulate the production of different amyloid-β catalytic intermediates by penetration into the active site tunnel, to different depths, with different flexibility and different binding affinity. <strong>Conclusions:</strong> Biphasic drugs and pathogenic mutations can affect the same dynamic protein structures that control processive catalysis. Successful drug-design strategies must incorporate transient changes in the γ-secretase structure in the development of specific modulators of its catalytic activity.</p>
 <p><a class="reference external" href="https://www.mdpi.com/1999-4923/13/4/514">Read the full paper in Pharmaceutics volume 13, issue 4.</a></p>
-</div>
-</div>
-<div class="section" id="diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021">
-<h2>Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia (24th March 2021)<a class="headerlink" href="#diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021">Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia (24th March 2021)<a class="headerlink" href="#diverse-sars-cov-2-variants-preceded-the-initial-covid-19-outbreak-in-croatia-24th-march-2021" title="Permalink to this headline">¶</a></h2>
 <p>Our brief report titled <a class="reference external" href="https://link.springer.com/article/10.1007/s00705-021-05029-7">Diverse SARS-CoV-2 variants preceded the initial COVID-19 outbreak in Croatia</a> has been published in <a class="reference external" href="https://www.springer.com/journal/705/">Archives of Virology</a>.</p>
-<div class="section" id="id3">
-<h3>Abstract<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id3">Abstract<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <p>We developed a next-generation SARS-CoV-2 sequencing platform and obtained the first SARS-CoV-2 sequences from patients in Croatia at the beginning of the COVID-19 outbreak in the spring of 2020. Integrating the sequencing and the epidemiological data, we show that patients were infected with different SARS-CoV-2 variants belonging to different clades (mostly G and GH). This result confirms that there was widespread virus transmission early in 2020. Interestingly, we identified a unique mutation resulting in a V13I substitution in Nsp5A, the main viral protease, in a patient who had not received antiviral therapy.</p>
 <p><a class="reference external" href="https://link.springer.com/article/10.1007/s00705-021-05029-7">Read the brief report in Archives of Virology.</a></p>
-</div>
-</div>
-<div class="section" id="structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020">
-<h2>Structural Analysis of Simultaneous Activation and Inhibition of Gamma-Secretase Activity in Development of Drugs for Alzheimer’s Disease (22nd September 2020)<a class="headerlink" href="#structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020">Structural Analysis of Simultaneous Activation and Inhibition of Gamma-Secretase Activity in Development of Drugs for Alzheimer’s Disease (22nd September 2020)<a class="headerlink" href="#structural-analysis-of-simultaneous-activation-and-inhibition-of-gamma-secretase-activity-in-development-of-drugs-for-alzheimer-s-disease-22nd-september-2020" title="Permalink to this headline">¶</a></h2>
 <p>Our research preprint titled <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2020.09.22.307959v1">Structural Analysis of Simultaneous Activation and Inhibition of Gamma-Secretase Activity in Development of Drugs for Alzheimer’s Disease</a> has been uploaded to <a class="reference external" href="https://www.biorxiv.org/">BioRxiv</a>.</p>
-<div class="section" id="id4">
-<h3>Abstract<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id4">Abstract<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>Significance: The majority of drugs that target membrane-embedded protease gamma-secretase show unusual biphasic activation-inhibition dose-response in cells, model animals, and humans. Semagacestat and avagacestat are two biphasic-drugs that can facilitate cognitive decline in patients with Alzheimers disease. Initial mechanistic studies showed that the biphasic-drugs, and pathogenic mutations, can produce the same type of changes in γ-secretase activity.</p>
 <p>Results: DAPT, semagacestat LY-411,575, and avagacestat are four drugs that show different binding constants, and biphasic activation-inhibition dose-response curves, for amyloid-beta-40 products in SHSY-5 cells. Multiscale molecular dynamics studies showed that all four drugs bind to the most mobile parts in presenilin structure, at different ends of the 29 A long active site tunnel. Combined results from structure-activity studies, showed that the biphasic dose-response curves are a result of modulation of gamma-secretase activity by concurrent binding of multiple drug molecules at each end of the active site tunnel. The drugs activate gamma-secretase by forcing the active site tunnel to open, when the rate-limiting step is the tunnel opening, and formation of the enzyme-substrate complex. The drugs inhibit gamma-secretase as uncompetitive inhibitors, by binding next to the substrate to dynamic enzyme structures that regulate processive catalysis. The drugs can modulate the production of different amyloid-beta catalytic intermediates, by penetrating into the active site tunnel to different depth with different binding affinity. The drugs and pathogenic mutations affect the same dynamic processes in gamma-secretase structure.</p>
 <p>Conclusions: Biphasic-drugs like disease-causing mutations can reduce the catalytic capacity of gamma-secretase and facilitate pathogenic changes in amyloid metabolism.</p>
 <p><a class="reference external" href="https://www.biorxiv.org/content/10.1101/2020.09.22.307959v1">Read the full preprint on BioRxiv.</a></p>
-</div>
-</div>
-<div class="section" id="substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020">
-<h2>Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)<a class="headerlink" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published in Nature Scientific Reports (26th June 2020)<a class="headerlink" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-in-nature-scientific-reports-26th-june-2020" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://www.nature.com/articles/s41598-020-67079-2">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase</a> authored by <a class="reference internal" href="../people/zeljko/#zms"><span class="std std-ref">Željko Svedružić</span></a>, <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Ivica Odorčić</span></a>, <a class="reference external" href="https://www.nrel.gov/research/christopher-chang.html">Christopher Chang</a>, and <a class="reference external" href="https://www.nrel.gov/research/drazenka-svedruzic.html">Draženka Svedružić</a> has been published today in <a class="reference external" href="https://www.nature.com/srep/">Nature Scientific Reports</a>.</p>
-<div class="section" id="id5">
-<h3>Abstract<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id5">Abstract<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <p>Substrate channeling studies have frequently failed to provide conclusive results due to poor understanding of this subtle phenomenon. We analyzed the mechanism of NADH-channeling from D-glyceraldehyde-3-phosphate dehydrogenase (GAPDH) to L-lactate Dehydrogenase (LDH) using enzymes from different cells. Enzyme kinetics studies showed that LDH activity with free NADH and GAPDH-NADH complex always take place in parallel. The channeling is observed only in assays that mimic cytosolic conditions where free NADH concentration is negligible and the GAPDH-NADH complex is dominant. Molecular dynamics and protein-protein interaction studies showed that LDH and GAPDH can form a leaky channeling complex only at the limiting NADH concentrations. Surface calculations showed that positive electric field between the NAD(H) binding sites on LDH and GAPDH tetramers can merge in the LDH-GAPDH complex. NAD(H)-channeling within the LDH-GAPDH complex can be an extension of NAD(H)-channeling within each tetramer. In the case of a transient LDH-(GAPDH-NADH) complex, the relative contribution from the channeled and the diffusive paths depends on the overlap between the off-rates for the LDH-(GAPDH-NADH) complex and the GAPDH-NADH complex. Molecular evolution or metabolic engineering protocols can exploit substrate channeling for metabolic flux control by fine-tuning substrate-binding affinity for the key enzymes in the competing reaction paths.</p>
 <p><a class="reference external" href="https://www.nature.com/articles/s41598-020-67079-2">Read the full paper in Nature Scientific Reports volume 10.</a></p>
-</div>
-</div>
-<div class="section" id="biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020">
-<h2>BioSFGroup featured in Novi list’s VOX academiae (17th April 2020)<a class="headerlink" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020">BioSFGroup featured in Novi list’s VOX academiae (17th April 2020)<a class="headerlink" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-17th-april-2020" title="Permalink to this headline">¶</a></h2>
 <p>BioSFGroup’s <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Patrik Nikolić</span></a> and <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Dr. Vedran Miletić</span></a>’s figure was featured in <a class="reference external" href="https://www.novilist.hr/">Novi list’s</a> University of Rijeka-themed monthly attachment <a class="reference external" href="https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/">VOX academiae</a> <a class="reference download internal" download="" href="../_downloads/3d5fa0e118ed0debfdbc618678f170c1/VOX-academiae-27-2020-04-17.pdf"><code class="xref download docutils literal notranslate"><span class="pre">issue</span> <span class="pre">27</span></code></a> (page 2 and page 3: <em>Epicentar znanstvenika u borbi protiv klimatskih promjena i virusa</em>).</p>
 <div class="figure align-default">
-<img alt="../_images/VOX-academiae-27-2020-04-17.jpg" src="../_images/VOX-academiae-27-2020-04-17.jpg" />
+<img alt="../_images/VOX-academiae-27-2020-04-17.jpg" src="../_images/VOX-academiae-27-2020-04-17.jpg"/>
 </div>
 <p>On page 3, speaking about <a class="reference internal" href="../research/#group-research"><span class="std std-ref">the research being carried out in the lab</span></a>, the article writes:</p>
 <blockquote>
 <div><p><em>The design of new drugs is a complex research process that nowadays is largely performed on a supercomputer. Six years ago, an interdisciplinary collaboration was started within the Laboratory for the Structure and Function of Biomolecules between Dr. Željko Svedružić from the Department of Biotechnology and Dr. Vedran Miletić from the Department of Informatics. Active use to simulate the molecular dynamics and chemical reactions described by quantum physics and predict ligand binding. So far, highly specific DNA methylation inhibitors have been designed at Bura to be used in tissue regeneration by genetic reprogramming of cells. Such inhibitors are marketed for several thousand dollars per gram, which is two orders of magnitude more expensive than gold.</em></p>
 </div></blockquote>
 <p><a class="reference download internal" download="" href="../_downloads/07b0291de4577b25b675ca40b1884a1d/VOX-academiae-19-2019-08-02.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Read</span> <span class="pre">the</span> <span class="pre">full</span> <span class="pre">text</span> <span class="pre">in</span> <span class="pre">VOX</span> <span class="pre">academiae</span> <span class="pre">issue</span> <span class="pre">19</span> <span class="pre">(in</span> <span class="pre">Croatian).</span></code></a></p>
-</div>
-<div class="section" id="substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020">
-<h2>Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published on bioRxiv (23rd January 2020)<a class="headerlink" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020">Substrate Channeling via a Transient Protein-Protein Complex: The case of D-Glyceraldehyde-3-Phosphate Dehydrogenase and L-Lactate Dehydrogenase published on bioRxiv (23rd January 2020)<a class="headerlink" href="#substrate-channeling-via-a-transient-protein-protein-complex-the-case-of-d-glyceraldehyde-3-phosphate-dehydrogenase-and-l-lactate-dehydrogenase-published-on-biorxiv-23rd-january-2020" title="Permalink to this headline">¶</a></h2>
 <p>Background: D-Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) and L-lactate dehydrogenase (LDH) can form a complex that can regulate the major metabolic pathways, however, the exact mechanism remains unknown. We analyzed a possibility of NADH-channeling from GAPDH-NADH complex to LDH isozymes using enzymes from different cells.</p>
 <p>Results: Enzyme-kinetics and NADH-binding studies showed that LDH can use GAPDH-NADH complex as a substrate. LDH activity with GAPDH-NADH complex was challenged with anti-LDH antibodies to show that the channeled and the diffusive reactions always take place in parallel. The channeling path is dominant only in assays with limiting free-NADH concertation that mimic cytosolic conditions. Analytical ultracentrifugation showed that the channeling does not require a high affinity complex. Molecular dynamics calculations and protein-protein interaction studies showed that LDH and GAPDH can form a leaky channeling complex only at subsaturating NADH concentrations. The interaction sites are conserved between LDH isozymes from heart and muscle, and between GAPDH molecules from rabbit and yeast cells. Positive electric fields between the NAD(H) binding sites on LDH and GAPDH tetramers, showed that NAD(H)-channeling within the LDH-GAPDH complex, can be an extension of NAD(H)-channeling between the adjacent subunits in each tetramer.</p>
 <p>Conclusions: In the case of a transient (GAPDH-NADH)-LDH complex, the relative contribution from the channeled and the diffusive paths depends on the overlap between off-rates for the transient (GAPDH-NADH)-LDH complex and off-rates for the GAPDH-NADH complex. Molecular evolution or metabolic engineering protocols can exploit substrate channeling for metabolic flux control by fine-tuning substrate-binding affinity for the key enzymes in the competing reaction paths.</p>
 <p><a class="reference external" href="https://www.biorxiv.org/content/10.1101/2020.01.22.916023v1">Read the full paper on bioRxiv.</a></p>
-</div>
-<div class="section" id="european-researchers-night-2019-27th-september-2019">
-<h2>European Researchers’ Night 2019 (27th September 2019)<a class="headerlink" href="#european-researchers-night-2019-27th-september-2019" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="european-researchers-night-2019-27th-september-2019">European Researchers’ Night 2019 (27th September 2019)<a class="headerlink" href="#european-researchers-night-2019-27th-september-2019" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://uniri.hr/vijesti/europska-noc-istrazivaca-u-rijeci-27-rujna-2019/">European Researchers’ Night 2019 in Rijeka</a> took place in Tower Center on friday, 27th September 2019. BioSFGroup participated with the topic <em>Supercomputer Bura: our window to the world of molecules</em>.</p>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2019-biosflab-1.jpg" src="../_images/noc-istrazivaca-2019-biosflab-1.jpg" />
+<img alt="../_images/noc-istrazivaca-2019-biosflab-1.jpg" src="../_images/noc-istrazivaca-2019-biosflab-1.jpg"/>
 </div>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2019-biosflab-2.jpg" src="../_images/noc-istrazivaca-2019-biosflab-2.jpg" />
+<img alt="../_images/noc-istrazivaca-2019-biosflab-2.jpg" src="../_images/noc-istrazivaca-2019-biosflab-2.jpg"/>
 </div>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2019-ivona.jpg" src="../_images/noc-istrazivaca-2019-ivona.jpg" />
+<img alt="../_images/noc-istrazivaca-2019-ivona.jpg" src="../_images/noc-istrazivaca-2019-ivona.jpg"/>
 </div>
 <p><a class="reference download internal" download="" href="../_downloads/bbd943529796006edc12eaae69e4d396/noc-istrazivaca-2019-rijeka-program.pdf"><code class="xref download docutils literal notranslate"><span class="pre">View</span> <span class="pre">the</span> <span class="pre">program</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">European</span> <span class="pre">Researchers'</span> <span class="pre">Night</span> <span class="pre">2019</span> <span class="pre">in</span> <span class="pre">Rijeka</span> <span class="pre">(in</span> <span class="pre">Croatian).</span></code></a></p>
 <p><a class="reference external" href="https://youtu.be/GfEbI4Nr8Gg">View MojaRijeka.hr’s video report about European Researchers’ Night 2018 in Rijeka (in Croatian)</a></p>
 <p><a class="reference external" href="https://uniri.hr/vijesti/europska-noc-istrazivaca-u-rijeci-27-rujna-2019/">Read University of Rijeka’s report about European Researchers’ Night 2018 (in Croatian)</a></p>
-</div>
-<div class="section" id="biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019">
-<h2>BioSFGroup featured in Novi list’s VOX academiae (2nd August 2019)<a class="headerlink" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019">BioSFGroup featured in Novi list’s VOX academiae (2nd August 2019)<a class="headerlink" href="#biosfgroup-featured-in-novi-list-s-vox-academiae-2nd-august-2019" title="Permalink to this headline">¶</a></h2>
 <p>BioSFGroup’s <a class="reference internal" href="../people/zeljko/#zms"><span class="std std-ref">Prof. Dr. Željko Svedružić</span></a> and <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Dr. Vedran Miletić</span></a> were featured in <a class="reference external" href="https://www.novilist.hr/">Novi list’s</a> University of Rijeka-themed monthly attachment <a class="reference external" href="https://uniri.hr/sveuciliste-i-drustvo/vox-academiae/">VOX academiae</a> <a class="reference download internal" download="" href="../_downloads/07b0291de4577b25b675ca40b1884a1d/VOX-academiae-19-2019-08-02.pdf"><code class="xref download docutils literal notranslate"><span class="pre">issue</span> <span class="pre">19</span></code></a> (page 1; pages 6–7: <em>Istraživači Odjela za biotehnologiju približavaju znanosti građanima</em>).</p>
 <div class="figure align-default">
-<img alt="../_images/VOX-academiae-19-2019-08-02-page-1.jpg" src="../_images/VOX-academiae-19-2019-08-02-page-1.jpg" />
+<img alt="../_images/VOX-academiae-19-2019-08-02-page-1.jpg" src="../_images/VOX-academiae-19-2019-08-02-page-1.jpg"/>
 </div>
 <p>Speaking about <a class="reference internal" href="../research/#group-research"><span class="std std-ref">the research being carried out in the lab</span></a>, Dr. Svedružić went straight to the point:</p>
 <blockquote>
@@ -286,90 +415,130 @@
 </div></blockquote>
 <p>He then listed <a class="reference internal" href="../people/zeljko/#zms-accomplishments"><span class="std std-ref">the accomplishments</span></a> and <a class="reference internal" href="../people/zeljko/#zms-publications"><span class="std std-ref">the results</span></a> from <a class="reference internal" href="../projects/#group-projects"><span class="std std-ref">the present research projects</span></a>.</p>
 <div class="figure align-default">
-<img alt="../_images/VOX-academiae-19-2019-08-02-page-6.jpg" src="../_images/VOX-academiae-19-2019-08-02-page-6.jpg" />
+<img alt="../_images/VOX-academiae-19-2019-08-02-page-6.jpg" src="../_images/VOX-academiae-19-2019-08-02-page-6.jpg"/>
 </div>
 <p><a class="reference download internal" download="" href="../_downloads/07b0291de4577b25b675ca40b1884a1d/VOX-academiae-19-2019-08-02.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Read</span> <span class="pre">the</span> <span class="pre">full</span> <span class="pre">text</span> <span class="pre">in</span> <span class="pre">VOX</span> <span class="pre">academiae</span> <span class="pre">issue</span> <span class="pre">19</span> <span class="pre">(in</span> <span class="pre">Croatian).</span></code></a></p>
-</div>
-<div class="section" id="pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019">
-<h2>Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)<a class="headerlink" href="#pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019">Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs published in ACS Chemical Biology (5th June 2019)<a class="headerlink" href="#pro-inflammatory-s100a9-protein-aggregation-promoted-by-ncam1-peptide-constructs-published-in-acs-chemical-biology-5th-june-2019" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394">Pro-Inflammatory S100A9 Protein Aggregation Promoted by NCAM1 Peptide Constructs</a> authored by <a class="reference external" href="https://www.umu.se/en/staff/jonathan-pansieri/">Jonathan Pansieri</a>, <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Lucija Ostojić</span></a>, <a class="reference external" href="https://www.umu.se/en/staff/igor-iashchishyn/">Igor A. Iashchishyn</a>, Mazin Magzoub, Cecilia Wallin, Sebastian K. T. S. Wärmländer, Astrid Gräslund, Mai Nguyen Ngoc, Vytautas Smirnovas, <a class="reference internal" href="../people/zeljko/#zms"><span class="std std-ref">Željko Svedružić</span></a>, and <a class="reference external" href="https://www.umu.se/en/staff/ludmilla-morozova-roche/">Ludmilla A. Morozova-Roche</a> (<a class="reference external" href="https://www.umu.se/en/research/groups/ludmilla-morozova-roche/">research group</a>) has been published today in <a class="reference external" href="https://pubs.acs.org/journal/acbcct">ACS Chemical Biology</a>.</p>
-<div class="section" id="id6">
-<h3>Abstract<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="id6">Abstract<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <p>Amyloid cascade and neuroinflammation are hallmarks of neurodegenerative diseases, and pro-inflammatory S100A9 protein is central to both of them. Here, we have shown that NCAM1 peptide constructs carrying polycationic sequences derived from Aβ peptide (KKLVFF) and PrP protein (KKRPKP) significantly promote the S100A9 amyloid self-assembly in a concentration-dependent manner by making transient interactions with individual S100A9 molecules, perturbing its native structure and acting as catalysts. Since the individual molecule misfolding is a rate-limiting step in S100A9 amyloid aggregation, the effects of the NCAM1 construct on the native S100A9 are so critical for its amyloid self-assembly. S100A9 rapid self-assembly into large aggregated clumps may prevent its amyloid tissue propagation, and by modulating S100A9 aggregation as a part of the amyloid cascade, the whole process may be effectively tuned.</p>
 <p><a class="reference external" href="https://pubs.acs.org/doi/full/10.1021/acschembio.9b00394">Read the full paper in ACS Chemical Biology volume 14 issue 7.</a></p>
-</div>
-</div>
-<div class="section" id="european-researchers-night-2018-28th-september-2018">
-<h2>European Researchers’ Night 2018 (28th September 2018)<a class="headerlink" href="#european-researchers-night-2018-28th-september-2018" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="european-researchers-night-2018-28th-september-2018">European Researchers’ Night 2018 (28th September 2018)<a class="headerlink" href="#european-researchers-night-2018-28th-september-2018" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://youtu.be/_65gSYQ57bs">European Researchers’</a> <a class="reference external" href="https://youtu.be/52U9xF-fIzI">Night 2018</a> <a class="reference external" href="https://youtu.be/3KczFTftjnw">in Rijeka</a> took place in <a class="reference external" href="https://www.tower-center-rijeka.hr/magazin/sto-vas-sve-ceka-na-noci-istrazivaca/">Tower Center</a> on friday, 28th September 2018. BioSFGroup participated with the topic <em>Microscope vs. supercomputers in pharmacy (supercomputers are 21st century microscopes)</em>.</p>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2018-rajna-vedran-zeljko.jpg" src="../_images/noc-istrazivaca-2018-rajna-vedran-zeljko.jpg" />
+<img alt="../_images/noc-istrazivaca-2018-rajna-vedran-zeljko.jpg" src="../_images/noc-istrazivaca-2018-rajna-vedran-zeljko.jpg"/>
 </div>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2018-david-rajna-vedran.jpg" src="../_images/noc-istrazivaca-2018-david-rajna-vedran.jpg" />
+<img alt="../_images/noc-istrazivaca-2018-david-rajna-vedran.jpg" src="../_images/noc-istrazivaca-2018-david-rajna-vedran.jpg"/>
 </div>
 <div class="figure align-default">
-<img alt="../_images/noc-istrazivaca-2018-biosflab.jpg" src="../_images/noc-istrazivaca-2018-biosflab.jpg" />
+<img alt="../_images/noc-istrazivaca-2018-biosflab.jpg" src="../_images/noc-istrazivaca-2018-biosflab.jpg"/>
 </div>
 <p><a class="reference download internal" download="" href="../_downloads/3d15d9dac47324e6460fd501ba4ab7b0/noc-istrazivaca-2018-rijeka-program.pdf"><code class="xref download docutils literal notranslate"><span class="pre">View</span> <span class="pre">the</span> <span class="pre">program</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">European</span> <span class="pre">Researchers'</span> <span class="pre">Night</span> <span class="pre">2018</span> <span class="pre">in</span> <span class="pre">Rijeka</span> <span class="pre">(in</span> <span class="pre">Croatian).</span></code></a></p>
 <p><a class="reference external" href="https://youtu.be/3KczFTftjnw">View Kanal Ri’s video report about European Researchers’ Night 2018 in Rijeka (in Croatian)</a></p>
 <p><a class="reference external" href="https://uniri.hr/vijesti/sudjelovalo-preko-18-000-gradana/">Read University of Rijeka’s report about European Researchers’ Night 2018 (in Croatian)</a></p>
 <p><a class="reference external" href="https://youtu.be/_65gSYQ57bs">View the organizer’s video report about European Researchers’ Night 2018 in Zagreb, Split, Rijeka, and Pula (in English)</a></p>
 <p><a class="reference external" href="https://youtu.be/52U9xF-fIzI">View the organizer’s video report about European Researchers’ Night 2018 in Zagreb, Split, Rijeka, and Pula (in Croatian)</a></p>
-</div>
-<div class="section" id="in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017">
-<h2>In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)<a class="headerlink" href="#in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017" title="Permalink to this headline">¶</a></h2>
+
+
+<h2 id="in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017">In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1 published in PLOS ONE (11th April 2017)<a class="headerlink" href="#in-silico-design-of-the-first-dna-independent-mechanism-based-inhibitor-of-mammalian-dna-methyltransferase-dnmt1-published-in-plos-one-11th-april-2017" title="Permalink to this headline">¶</a></h2>
 <p>Our research paper titled <a class="reference external" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410">In silico design of the first DNA-independent mechanism-based inhibitor of mammalian DNA methyltransferase Dnmt1</a> authored by <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Vedran Miletić</span></a>, <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Ivica Odorčić</span></a>, <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Patrik Nikolić</span></a>, and <a class="reference internal" href="../people/zeljko/#zms"><span class="std std-ref">Željko Svedružić</span></a> has been published today in <a class="reference external" href="https://journals.plos.org/plosone/">PLOS ONE</a>, the flagship Open Access journal.</p>
-<div class="section" id="background">
-<h3>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h3>
+
+<h3 id="background">Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h3>
 <p>We use our earlier experimental studies of the catalytic mechanism of DNA methyltransferases to prepare in silico a family of novel mechanism-based inhibitors of human Dnmt1. Highly specific inhibitors of DNA methylation can be used for analysis of human epigenome and for the creation of iPS cells.</p>
-</div>
-<div class="section" id="results">
-<h3>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h3>
+
+
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h3>
 <p>We describe a set of adenosyl-1-methyl-pyrimidin-2-one derivatives as novel mechanism-based inhibitors of mammalian DNA methyltransferase Dnmt1. The inhibitors have been designed to bind simultaneously in the active site and the cofactor site and thus act as transition-state analogues. Molecular dynamics studies showed that the lead compound can form between 6 to 9 binding interactions with Dnmt1. QM/MM analysis showed that the upon binding to Dnmt1 the inhibitor can form a covalent adduct with active site Cys1226 and thus act as a mechanism-based suicide-inhibitor. The inhibitor can target DNA-bond and DNA-free form of Dnmt1, however the suicide-inhibition step is more likely to happen when DNA is bound to Dnmt1. The validity of presented analysis is described in detail using 69 modifications in the lead compound structure. In total 18 of the presented 69 modifications can be used to prepare a family of highly specific inhibitors that can differentiate even between closely related enzymes such as Dnmt1 and Dnmt3a DNA methyltransferases.</p>
-</div>
-<div class="section" id="conclusions">
-<h3>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">¶</a></h3>
+
+
+<h3 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">¶</a></h3>
 <p>Presented results can be used for preparation of some highly specific and potent inhibitors of mammalian DNA methylation with specific pharmacological properties.</p>
 <p><a class="reference external" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0174410">Read the full paper in PLOS ONE volume 12 issue 4.</a></p>
-</div>
-</div>
-<div class="section" id="biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015">
-<h2>BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)<a class="headerlink" href="#biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015">BioSFGroup featured in student journal Biotech – znanost u društvu (10th January 2015)<a class="headerlink" href="#biosfgroup-featured-in-student-journal-biotech-znanost-u-drustvu-10th-january-2015" title="Permalink to this headline">¶</a></h2>
 <p>BioSFGroup’s <a class="reference internal" href="../people/zeljko/#zms"><span class="std std-ref">Prof. Dr. Željko Svedružić</span></a>, <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Patrik Nikolić</span></a>, and <a class="reference internal" href="../people/#group-people"><span class="std std-ref">Vedran Miletić</span></a> were featured in in <a class="reference external" href="https://www.uniri.hr/">University of Rijeka</a> <a class="reference external" href="https://www.biotech.uniri.hr/">Department of Biotechnology</a> student journal Biotech – znanost u društvu <a class="reference download internal" download="" href="../_downloads/da32d6b4384098e38b18cc544c285053/biotech-znanost-u-drustvu-2014-12.pdf"><code class="xref download docutils literal notranslate"><span class="pre">issue</span> <span class="pre">3</span></code></a> (<a class="reference external" href="https://issuu.com/biotech_ri/docs/__asopis_2014-novo">also available on Issuu</a>) from December 2014 (front page; pages 9–16: <em>interview: doc. dr. sc. Željko Svedružić</em>; page 17: <em>interview: Patrik Nikolić</em>; pages 18–19: <em>interview: Vedran Miletić</em>).</p>
 <div class="figure align-default">
-<img alt="../_images/biotech-znanost-u-drustvu-2014-12-front-page.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-front-page.jpg" />
+<img alt="../_images/biotech-znanost-u-drustvu-2014-12-front-page.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-front-page.jpg"/>
 </div>
 <p>Discussing <a class="reference external" href="https://www.biotech.uniri.hr/en/study-programmes.html">the study programmes at the Department of Biotechnology</a>, Dr. Svedružić was optimistic about their future in spite of the present challenges:</p>
 <blockquote>
 <div><p><em>Two years ago, economic experts in the German government pointed out that the development of biotechnology was the future of German industry. Finally, the pharmaceutical and related biochemical industries are today among the few industries in Croatia that are positively operating and competitive in the international market, despite a lagging administrative and political environment. Therefore, the facts show that studying biotechnology has a future, if the opportunities are exploited.</em></p>
 </div></blockquote>
 <div class="figure align-default">
-<img alt="../_images/biotech-znanost-u-drustvu-2014-12-page-11.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-page-11.jpg" />
+<img alt="../_images/biotech-znanost-u-drustvu-2014-12-page-11.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-page-11.jpg"/>
 </div>
 <div class="figure align-default">
-<img alt="../_images/biotech-znanost-u-drustvu-2014-12-page-19.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-page-19.jpg" />
+<img alt="../_images/biotech-znanost-u-drustvu-2014-12-page-19.jpg" src="../_images/biotech-znanost-u-drustvu-2014-12-page-19.jpg"/>
 </div>
 <p><a class="reference download internal" download="" href="../_downloads/da32d6b4384098e38b18cc544c285053/biotech-znanost-u-drustvu-2014-12.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Read</span> <span class="pre">the</span> <span class="pre">full</span> <span class="pre">text</span> <span class="pre">in</span> <span class="pre">Biotech</span> <span class="pre">–</span> <span class="pre">znanost</span> <span class="pre">u</span> <span class="pre">društvu</span> <span class="pre">issue</span> <span class="pre">3</span> <span class="pre">(in</span> <span class="pre">Croatian).</span></code></a></p>
-</div>
-</div>
 
 
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../" title="Biomolecular Structure and Function Group | BioSFGroup"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Biomolecular Structure and Function Group | BioSFGroup </span>
+              </div>
+            </a>
+          
+          
+            <a href="../people/" title="People"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> People </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
     </div>
-      
-  </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-      
-    </p>
-    <p>
-        &copy; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
-    </p>
-  </div>
-</footer>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.
+              
+          </div>
+            Created using
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 4.1.2.
+             and
+            <a href="https://github.com/bashtage/sphinx-material/">Material for
+              Sphinx</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
   </body>
 </html>

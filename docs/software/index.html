@@ -1,12 +1,66 @@
+
 <!DOCTYPE html>
 
 <html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="lang:clipboard.copy" content="Copy to clipboard">
+  <meta name="lang:clipboard.copied" content="Copied to clipboard">
+  <meta name="lang:search.language" content="en">
+  <meta name="lang:search.pipeline.stopwords" content="True">
+  <meta name="lang:search.pipeline.trimmer" content="True">
+  <meta name="lang:search.result.none" content="No matching documents">
+  <meta name="lang:search.result.one" content="1 matching document">
+  <meta name="lang:search.result.other" content="# matching documents">
+  <meta name="lang:search.tokenizer" content="[\s\-]+">
+
+  
+    <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto:300,400,400i,700&display=fallback" rel="stylesheet">
+
+    <style>
+      body,
+      input {
+        font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif
+      }
+
+      code,
+      kbd,
+      pre {
+        font-family: "Roboto Mono", "Courier New", Courier, monospace
+      }
+    </style>
+  
+
+  <link rel="stylesheet" href="../_static/stylesheets/application.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-palette.css"/>
+  <link rel="stylesheet" href="../_static/stylesheets/application-fixes.css"/>
+  
+  <link rel="stylesheet" href="../_static/fonts/material-icons.css"/>
+  
+  <meta name="theme-color" content="#3f51b5">
+  <script src="../_static/javascripts/modernizr.js"></script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z6K7QSCHCE');
+</script>
+  
+  
     <title>Software &#8212; BioSFGroup homepage</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/material.css" />
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
@@ -16,202 +70,298 @@
     <link rel="search" title="Search" href="../search/" />
     <link rel="next" title="Teaching" href="../teaching/" />
     <link rel="prev" title="Projects" href="../projects/" />
+  
+   
 
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js "></script>
-<script type="text/javascript" src="../_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-sphinx.js "></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6K7QSCHCE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z6K7QSCHCE');
-</script>
-
-  </head><body>
-
-  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="../"><span><img src="../_static/logo.svg"></span>
-          BioSFGroup</a>
-        <span class="navbar-text navbar-version pull-left"><b></b></span>
+  </head>
+  <body dir=ltr
+        data-md-color-primary=teal data-md-color-accent=green>
+  
+  <svg class="md-svg">
+    <defs data-children-count="0">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+      
+    </defs>
+  </svg>
+  
+  <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
+  <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
+  <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <a href="#software" tabindex="1" class="md-skip"> Skip to content </a>
+  <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex navheader">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../" title="BioSFGroup homepage"
+           class="md-header-nav__button md-logo">
+          
+              <img src="../_static/logo.svg" height="26"
+                   alt="BioSFGroup homepage logo">
+          
+        </a>
       </div>
-
-        <div class="collapse navbar-collapse nav-collapse">
-          <ul class="nav navbar-nav">
-            
-            
-              <li class="dropdown globaltoc-container">
-  <a role="button"
-     id="dLabelGlobalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="../">Site <b class="caret"></b></a>
-  <ul class="dropdown-menu globaltoc"
-      role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Recent</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../news/">News</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../people/">People</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../research/">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../projects/">Projects</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../teaching/">Teaching</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../prospective-students/">Prospective students</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../contact/">Contact</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../wiki/">Former wiki</a></li>
-</ul>
-</ul>
-</li>
-              
-                <li class="dropdown">
-  <a role="button"
-     id="dLabelLocalToc"
-     data-toggle="dropdown"
-     data-target="#"
-     href="#">Page <b class="caret"></b></a>
-  <ul class="dropdown-menu localtoc"
-      role="menu"
-      aria-labelledby="dLabelLocalToc"><ul>
-<li><a class="reference internal" href="#">Software</a><ul>
-<li><a class="reference internal" href="#structure-visualization-analysis-and-editing">Structure visualization, analysis, and editing</a><ul>
-<li><a class="reference internal" href="#pymol">PyMOL</a><ul>
-<li><a class="reference internal" href="#specific-uses">Specific uses</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#vmd">VMD</a><ul>
-<li><a class="reference internal" href="#id1">Specific uses</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#ucsf-chimera">UCSF Chimera</a><ul>
-<li><a class="reference internal" href="#id2">Specific uses</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#wxmacmolplt">wxMacMolPlt</a></li>
-<li><a class="reference internal" href="#modeller">MODELLER</a></li>
-<li><a class="reference internal" href="#avogadro">Avogadro</a></li>
-<li><a class="reference internal" href="#chemaxon-marvin">ChemAxon Marvin</a></li>
-<li><a class="reference internal" href="#cresset">Cresset</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#electrostatic-calculation-protein-ligand-docking-and-molecular-simulation">Electrostatic calculation, protein-ligand docking, and molecular simulation</a><ul>
-<li><a class="reference internal" href="#apbs-and-pdb2pqr">APBS and PDB2PQR</a></li>
-<li><a class="reference internal" href="#autodock-and-autodock-vina">AutoDock and AutoDock Vina</a></li>
-<li><a class="reference internal" href="#rdock-and-rxdock">rDock and RxDock</a></li>
-<li><a class="reference internal" href="#gromacs">GROMACS</a><ul>
-<li><a class="reference internal" href="#id4">Specific uses</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#namd">NAMD</a></li>
-<li><a class="reference internal" href="#plumed">PLUMED</a></li>
-<li><a class="reference internal" href="#cp2k">CP2K</a><ul>
-<li><a class="reference internal" href="#id5">Specific uses</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#nwchem">NWChem</a></li>
-<li><a class="reference internal" href="#gamess-us">GAMESS (US)</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#topology-generation-and-file-format-conversion">Topology generation and file format conversion</a><ul>
-<li><a class="reference internal" href="#ambertools-and-acpype">AmberTools and acpype</a></li>
-<li><a class="reference internal" href="#open-babel">Open Babel</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#chemical-kinetics-simulation-and-quantitative-molecular-interactions">Chemical kinetics simulation and quantitative molecular interactions</a><ul>
-<li><a class="reference internal" href="#kintek-explorer">KinTek Explorer</a></li>
-<li><a class="reference internal" href="#copasi">COPASI</a></li>
-<li><a class="reference internal" href="#tenua">Tenua</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#data-processing-and-visualization">Data processing and visualization</a><ul>
-<li><a class="reference internal" href="#r-and-bio3d">R and Bio3D</a></li>
-<li><a class="reference internal" href="#maxima">Maxima</a></li>
-<li><a class="reference internal" href="#libreoffice-calc">LibreOffice Calc</a></li>
-<li><a class="reference internal" href="#gnuplot">gnuplot</a></li>
-<li><a class="reference internal" href="#scidavis">SciDAVis</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#laboratory-protocols-methods-notes-and-other-documentation">Laboratory protocols, methods, notes, and other documentation</a><ul>
-<li><a class="reference internal" href="#docutils-and-sphinx">Docutils and Sphinx</a></li>
-<li><a class="reference internal" href="#pandoc">Pandoc</a></li>
-<li><a class="reference internal" href="#libreoffice-writer">LibreOffice Writer</a></li>
-<li><a class="reference internal" href="#graphviz">Graphviz</a></li>
-<li><a class="reference internal" href="#font-awesome">Font Awesome</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#software-development">Software development</a><ul>
-<li><a class="reference internal" href="#visual-studio-code">Visual Studio Code</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</ul>
-</li>
-              
-            
-            
-              
-                
-  <li>
-    <a href="../projects/" title="Previous Chapter: Projects"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Projects</span>
-    </a>
-  </li>
-  <li>
-    <a href="../teaching/" title="Next Chapter: Teaching"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Teaching &raquo;</span>
-    </a>
-  </li>
-              
-            
-            
-            
-            
-              <li class="hidden-sm">
-<div id="sourcelink">
-  <a href="../_sources/software.rst.txt"
-     rel="nofollow">Source</a>
-</div></li>
-            
-          </ul>
-
-          
-            
-<form class="navbar-form navbar-right" action="../search/" method="get">
- <div class="form-group">
-  <input type="text" name="q" class="form-control" placeholder="Search" />
- </div>
-  <input type="hidden" name="check_keywords" value="yes" />
-  <input type="hidden" name="area" value="default" />
-</form>
-          
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          <span class="md-header-nav__topic">BioSFGroup</span>
+          <span class="md-header-nav__topic"> Software </span>
         </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+        
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" action="../search/" method="get" name="search">
+      <input type="text" class="md-search__input" name="q" placeholder="Search"
+             autocapitalize="off" autocomplete="off" spellcheck="false"
+             data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 
-<div class="container">
-  <div class="row">
-    <div class="body col-md-12 content" role="main">
+      </div>
       
-  <div class="section" id="software">
-<span id="group-software"></span><h1>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h1>
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+          </div>
+        </div>
+      
+      
+  
+  <script src="../_static/javascripts/version_dropdown.js"></script>
+  <script>
+    var json_loc = "../"versions.json"",
+        target_loc = "../../",
+        text = "Versions";
+    $( document ).ready( add_version_dropdown(json_loc, target_loc, text));
+  </script>
+  
+
+    </div>
+  </nav>
+</header>
+
+  
+  <div class="md-container">
+    
+    
+    
+  <nav class="md-tabs" data-md-component="tabs">
+    <div class="md-tabs__inner md-grid">
+      <ul class="md-tabs__list">
+          <li class="md-tabs__item"><a href="../" class="md-tabs__link">BioSFGroup homepage</a></li>
+      </ul>
+    </div>
+  </nav>
+    <main class="md-main">
+      <div class="md-main__inner md-grid" data-md-component="container">
+        
+          <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../" title="BioSFGroup homepage" class="md-nav__button md-logo">
+      
+        <img src="../_static/logo.svg" alt=" logo" width="48" height="48">
+      
+    </a>
+    <a href="../"
+       title="BioSFGroup homepage">BioSFGroup</a>
+  </label>
+    <div class="md-nav__source">
+      <a href="https://github.com/svedruziclab/svedruziclab.github.io/" title="Go to repository" class="md-source" data-md-source="github">
+
+    <div class="md-source__icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" width="28" height="28">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    BioSFGroup website 
+  </div>
+</a>
+    </div>
+  
+  
+
+</nav>
+              </div>
+            </div>
+          </div>
+          <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+            <div class="md-sidebar__scrollwrap">
+              <div class="md-sidebar__inner">
+                
+<nav class="md-nav md-nav--secondary">
+    <label class="md-nav__title" for="__toc">Contents</label>
+  <ul class="md-nav__list" data-md-scrollfix="">
+        <li class="md-nav__item"><a href="#software--page-root" class="md-nav__link">Software</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#structure-visualization-analysis-and-editing" class="md-nav__link">Structure visualization, analysis, and editing</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#pymol" class="md-nav__link">PyMOL</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#specific-uses" class="md-nav__link">Specific uses</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#vmd" class="md-nav__link">VMD</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id1" class="md-nav__link">Specific uses</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#ucsf-chimera" class="md-nav__link">UCSF Chimera</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id2" class="md-nav__link">Specific uses</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#wxmacmolplt" class="md-nav__link">wxMacMolPlt</a>
+        </li>
+        <li class="md-nav__item"><a href="#modeller" class="md-nav__link">MODELLER</a>
+        </li>
+        <li class="md-nav__item"><a href="#avogadro" class="md-nav__link">Avogadro</a>
+        </li>
+        <li class="md-nav__item"><a href="#chemaxon-marvin" class="md-nav__link">ChemAxon Marvin</a>
+        </li>
+        <li class="md-nav__item"><a href="#cresset" class="md-nav__link">Cresset</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#electrostatic-calculation-protein-ligand-docking-and-molecular-simulation" class="md-nav__link">Electrostatic calculation, protein-ligand docking, and molecular simulation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#apbs-and-pdb2pqr" class="md-nav__link">APBS and PDB2PQR</a>
+        </li>
+        <li class="md-nav__item"><a href="#autodock-and-autodock-vina" class="md-nav__link">AutoDock and AutoDock Vina</a>
+        </li>
+        <li class="md-nav__item"><a href="#rdock-and-rxdock" class="md-nav__link">rDock and RxDock</a>
+        </li>
+        <li class="md-nav__item"><a href="#gromacs" class="md-nav__link">GROMACS</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id4" class="md-nav__link">Specific uses</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#namd" class="md-nav__link">NAMD</a>
+        </li>
+        <li class="md-nav__item"><a href="#plumed" class="md-nav__link">PLUMED</a>
+        </li>
+        <li class="md-nav__item"><a href="#cp2k" class="md-nav__link">CP2K</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#id5" class="md-nav__link">Specific uses</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#nwchem" class="md-nav__link">NWChem</a>
+        </li>
+        <li class="md-nav__item"><a href="#gamess-us" class="md-nav__link">GAMESS (US)</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#topology-generation-and-file-format-conversion" class="md-nav__link">Topology generation and file format conversion</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#ambertools-and-acpype" class="md-nav__link">AmberTools and acpype</a>
+        </li>
+        <li class="md-nav__item"><a href="#open-babel" class="md-nav__link">Open Babel</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#chemical-kinetics-simulation-and-quantitative-molecular-interactions" class="md-nav__link">Chemical kinetics simulation and quantitative molecular interactions</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#kintek-explorer" class="md-nav__link">KinTek Explorer</a>
+        </li>
+        <li class="md-nav__item"><a href="#copasi" class="md-nav__link">COPASI</a>
+        </li>
+        <li class="md-nav__item"><a href="#tenua" class="md-nav__link">Tenua</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#data-processing-and-visualization" class="md-nav__link">Data processing and visualization</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#r-and-bio3d" class="md-nav__link">R and Bio3D</a>
+        </li>
+        <li class="md-nav__item"><a href="#maxima" class="md-nav__link">Maxima</a>
+        </li>
+        <li class="md-nav__item"><a href="#libreoffice-calc" class="md-nav__link">LibreOffice Calc</a>
+        </li>
+        <li class="md-nav__item"><a href="#gnuplot" class="md-nav__link">gnuplot</a>
+        </li>
+        <li class="md-nav__item"><a href="#scidavis" class="md-nav__link">SciDAVis</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#laboratory-protocols-methods-notes-and-other-documentation" class="md-nav__link">Laboratory protocols, methods, notes, and other documentation</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#docutils-and-sphinx" class="md-nav__link">Docutils and Sphinx</a>
+        </li>
+        <li class="md-nav__item"><a href="#pandoc" class="md-nav__link">Pandoc</a>
+        </li>
+        <li class="md-nav__item"><a href="#libreoffice-writer" class="md-nav__link">LibreOffice Writer</a>
+        </li>
+        <li class="md-nav__item"><a href="#graphviz" class="md-nav__link">Graphviz</a>
+        </li>
+        <li class="md-nav__item"><a href="#font-awesome" class="md-nav__link">Font Awesome</a>
+        </li></ul>
+            </nav>
+        </li>
+        <li class="md-nav__item"><a href="#software-development" class="md-nav__link">Software development</a><nav class="md-nav">
+              <ul class="md-nav__list">
+        <li class="md-nav__item"><a href="#visual-studio-code" class="md-nav__link">Visual Studio Code</a>
+        </li></ul>
+            </nav>
+        </li></ul>
+            </nav>
+        </li>
+    
+<li class="md-nav__item"><a class="md-nav__extra_link" href="../_sources/software.rst.txt">Show Source</a> </li>
+
+<li id="searchbox" class="md-nav__item"></li>
+
+  </ul>
+</nav>
+              </div>
+            </div>
+          </div>
+        
+        <div class="md-content">
+          <article class="md-content__inner md-typeset" role="main">
+            
+  
+<span id="group-software"></span><h1 id="software--page-root">Software<a class="headerlink" href="#software--page-root" title="Permalink to this headline">¶</a></h1>
 <p>Research work in BioSFGroup relies on computer software, with strong preference towards the usage of <a class="reference external" href="https://opensource.com/article/17/11/open-source-or-free-software">free and open source software</a>, starting from the operating system:</p>
 <ul class="simple">
 <li><p>our workstations run <a class="reference external" href="https://ubuntu.com/download/desktop">Ubuntu LTS</a>,</p></li>
@@ -291,8 +441,8 @@
 </li>
 </ul>
 </div>
-<div class="section" id="structure-visualization-analysis-and-editing">
-<h2><a class="toc-backref" href="#id11">Structure visualization, analysis, and editing</a><a class="headerlink" href="#structure-visualization-analysis-and-editing" title="Permalink to this headline">¶</a></h2>
+
+<h2 id="structure-visualization-analysis-and-editing"><a class="toc-backref" href="#id11">Structure visualization, analysis, and editing</a><a class="headerlink" href="#structure-visualization-analysis-and-editing" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="list-of-software">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -306,74 +456,74 @@
 <li><p><a class="reference internal" href="#cresset" id="id58">Cresset</a></p></li>
 </ul>
 </div>
-<div class="section" id="pymol">
-<span id="software-pymol"></span><h3><a class="toc-backref" href="#id51">PyMOL</a><a class="headerlink" href="#pymol" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-pymol"></span><h3 id="pymol"><a class="toc-backref" href="#id51">PyMOL</a><a class="headerlink" href="#pymol" title="Permalink to this headline">¶</a></h3>
 <p><strong>PyMOL</strong> (<a class="reference external" href="https://pymol.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/PyMOL">Wikipedia</a>) is free and open source molecular visualization system, maintained by <a class="reference external" href="https://www.schrodinger.com/">Schrödinger</a>.</p>
 <p>PyMOL is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/community/x86_64/pymol/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/pymol">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/pymol">Fedora</a>.</p>
-<div class="section" id="specific-uses">
-<h4>Specific uses<a class="headerlink" href="#specific-uses" title="Permalink to this headline">¶</a></h4>
+
+<h4 id="specific-uses">Specific uses<a class="headerlink" href="#specific-uses" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/pmamonov/pymol-cp2k-qmmm">Visual approach to construction of &amp;QMMM section of CP2K input file</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="vmd">
-<span id="software-vmd"></span><h3><a class="toc-backref" href="#id52">VMD</a><a class="headerlink" href="#vmd" title="Permalink to this headline">¶</a></h3>
+
+
+
+<span id="software-vmd"></span><h3 id="vmd"><a class="toc-backref" href="#id52">VMD</a><a class="headerlink" href="#vmd" title="Permalink to this headline">¶</a></h3>
 <p><strong>VMD</strong> (<a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Visual_Molecular_Dynamics">Wikipedia</a>) is a freely available molecular visualization system used for displaying and animation of biomolecular systems. VMD stands for <em>Visual Molecular Dynamics</em>, and it is maintained by <a class="reference external" href="https://www.ks.uiuc.edu/">Theoretical and Computational Biophysics Group</a> at <a class="reference external" href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>. VMD is distributed with source code under <a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/current/LICENSE.html">VMD License</a>, and it is not free and open source software.</p>
 <p>VMD is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/vmd/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-<div class="section" id="id1">
-<h4>Specific uses<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+
+<h4 id="id1">Specific uses<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/plugins/psfgen/">VMD psfgen Plugin</a></p></li>
 <li><p><a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/current/ug/node58.html">DynamicBonds</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="ucsf-chimera">
-<span id="software-chimera"></span><h3><a class="toc-backref" href="#id53">UCSF Chimera</a><a class="headerlink" href="#ucsf-chimera" title="Permalink to this headline">¶</a></h3>
+
+
+
+<span id="software-chimera"></span><h3 id="ucsf-chimera"><a class="toc-backref" href="#id53">UCSF Chimera</a><a class="headerlink" href="#ucsf-chimera" title="Permalink to this headline">¶</a></h3>
 <p><strong>UCSF Chimera</strong> (<a class="reference external" href="https://www.cgl.ucsf.edu/chimera/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/UCSF_Chimera">Wikipedia</a>) is a freely available visualization and analysis software. Chimera works with single molecules as well as supramolecular assemblies, sequence alignments, results of docking, and molecular dynamics trajectories. Chimera is distributed in a binary form under <a class="reference external" href="https://www.cgl.ucsf.edu/chimera/license.html">UCSF Chimera Non-Commercial Software License Agreement</a>, and it is not free and open source software.</p>
 <p>UCSF Chimera is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/ucsf-chimera/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-<div class="section" id="id2">
-<h4>Specific uses<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+
+<h4 id="id2">Specific uses<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/dockprep/dockprep.html">Dock Prep</a>, <a class="reference external" href="https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/vina/vina.html">AutoDock Vina</a>, and <a class="reference external" href="https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/viewdock/viewdock.html">ViewDock</a></p></li>
 <li><p><a class="reference external" href="https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/addcharge/addcharge.html">Add Charge</a></p></li>
 <li><p><a class="reference external" href="https://www.cgl.ucsf.edu/chimera/docs/ContributedSoftware/movie/movie.html">MD Movie</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="wxmacmolplt">
-<span id="software-wxmacmolplt"></span><h3><a class="toc-backref" href="#id54">wxMacMolPlt</a><a class="headerlink" href="#wxmacmolplt" title="Permalink to this headline">¶</a></h3>
+
+
+
+<span id="software-wxmacmolplt"></span><h3 id="wxmacmolplt"><a class="toc-backref" href="#id54">wxMacMolPlt</a><a class="headerlink" href="#wxmacmolplt" title="Permalink to this headline">¶</a></h3>
 <p><strong>wxMacMolPlt</strong> (<a class="reference external" href="https://brettbode.github.io/wxmacmolplt/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/WxMacMolPlt">Wikipedia</a>) is a free and open source graphical user interface for preparation and visualization of the input and output files for the GAMESS quantum chemistry package.</p>
 <p>wxMacMolPlt is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/wxmacmolplt/">Arch User Repository</a> and <a class="reference external" href="https://apps.fedoraproject.org/packages/wxmacmolplt">Fedora</a>, but not in Debian.</p>
-</div>
-<div class="section" id="modeller">
-<span id="software-modeller"></span><h3><a class="toc-backref" href="#id55">MODELLER</a><a class="headerlink" href="#modeller" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-modeller"></span><h3 id="modeller"><a class="toc-backref" href="#id55">MODELLER</a><a class="headerlink" href="#modeller" title="Permalink to this headline">¶</a></h3>
 <p><strong>MODELLER</strong> (<a class="reference external" href="https://salilab.org/modeller/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/MODELLER">Wikipedia</a>) is a proprietary software for modelling of tertiary structures of proteins.</p>
 <p>MODELLER is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/modeller/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-</div>
-<div class="section" id="avogadro">
-<span id="software-avogadro"></span><h3><a class="toc-backref" href="#id56">Avogadro</a><a class="headerlink" href="#avogadro" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-avogadro"></span><h3 id="avogadro"><a class="toc-backref" href="#id56">Avogadro</a><a class="headerlink" href="#avogadro" title="Permalink to this headline">¶</a></h3>
 <p><strong>Avogadro</strong> (<a class="reference external" href="https://avogadro.cc/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Avogadro_%28software%29">Wikipedia</a>) is a free and open source molecule editor. It is maintained by <a class="reference external" href="https://www.kitware.com/">Kitware</a>. Avogadro comes in two versions: orange Avogadro, and blue <a class="reference external" href="https://www.openchemistry.org/projects/avogadro2/">Avogadro 2</a>.</p>
 <p>Avogadro (first version, the orange one) is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/avogadro/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/avogadro">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/avogadro">Fedora</a>. Avogadro 2 (the blue one) is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/avogadro2-git/">Arch User Repository</a> and <a class="reference external" href="https://apps.fedoraproject.org/packages/avogadro2">Fedora</a>, but not in Debian.</p>
-</div>
-<div class="section" id="chemaxon-marvin">
-<span id="software-marvin"></span><h3><a class="toc-backref" href="#id57">ChemAxon Marvin</a><a class="headerlink" href="#chemaxon-marvin" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-marvin"></span><h3 id="chemaxon-marvin"><a class="toc-backref" href="#id57">ChemAxon Marvin</a><a class="headerlink" href="#chemaxon-marvin" title="Permalink to this headline">¶</a></h3>
 <p><strong>ChemAxon Marvin</strong> (<a class="reference external" href="https://chemaxon.com/products/marvin">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/ChemAxon">Wikipedia</a>) is a freely available software for drawing and visualization of molecules. Marvin is distributed in binar form under <a class="reference external" href="https://docs.chemaxon.com/display/docs/End+User+License+Agreement">ChemAxon EULA</a>, and it is not free and open source software.</p>
 <p>Marvin is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/marvin/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-</div>
-<div class="section" id="cresset">
-<span id="software-cresset"></span><h3><a class="toc-backref" href="#id58">Cresset</a><a class="headerlink" href="#cresset" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-cresset"></span><h3 id="cresset"><a class="toc-backref" href="#id58">Cresset</a><a class="headerlink" href="#cresset" title="Permalink to this headline">¶</a></h3>
 <p><strong>Torch</strong> (<a class="reference external" href="https://www.cresset-group.com/products/torch/">homepage</a>) is a proprietary software.</p>
 <p>Torch is not available as a package in Arch Linux, Debian, and Fedora.</p>
 <p><strong>Spark</strong> (<a class="reference external" href="https://www.cresset-group.com/products/spark/">homepage</a>) is a proprietary software.</p>
 <p>Spark is not available as a package in Arch Linux, Debian, and Fedora.</p>
 <p><strong>Forge</strong> (<a class="reference external" href="https://www.cresset-group.com/products/forge/">homepage</a>) is a proprietary software.</p>
 <p>Forge is not available as a package in Arch Linux, Debian, and Fedora.</p>
-</div>
-</div>
-<div class="section" id="electrostatic-calculation-protein-ligand-docking-and-molecular-simulation">
-<h2><a class="toc-backref" href="#id20">Electrostatic calculation, protein-ligand docking, and molecular simulation</a><a class="headerlink" href="#electrostatic-calculation-protein-ligand-docking-and-molecular-simulation" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="electrostatic-calculation-protein-ligand-docking-and-molecular-simulation"><a class="toc-backref" href="#id20">Electrostatic calculation, protein-ligand docking, and molecular simulation</a><a class="headerlink" href="#electrostatic-calculation-protein-ligand-docking-and-molecular-simulation" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id3">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -388,71 +538,71 @@
 <li><p><a class="reference internal" href="#gamess-us" id="id67">GAMESS (US)</a></p></li>
 </ul>
 </div>
-<div class="section" id="apbs-and-pdb2pqr">
-<span id="software-apbs-pdb2pqr"></span><h3><a class="toc-backref" href="#id59">APBS and PDB2PQR</a><a class="headerlink" href="#apbs-and-pdb2pqr" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-apbs-pdb2pqr"></span><h3 id="apbs-and-pdb2pqr"><a class="toc-backref" href="#id59">APBS and PDB2PQR</a><a class="headerlink" href="#apbs-and-pdb2pqr" title="Permalink to this headline">¶</a></h3>
 <p><strong>APBS</strong> (<a class="reference external" href="https://www.poissonboltzmann.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/APBS_%28software%29">Wikipedia</a>) is a free and open source software for computing the numerical solution of the Poisson-Boltzmann equation that describes electrostatic interactions between molecular solutes.</p>
 <p>APBS is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/apbs/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/apbs">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/apbs">Fedora</a>.</p>
 <p><strong>PDB2PQR</strong> (<a class="reference external" href="https://www.poissonboltzmann.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/PDB2PQR">Wikipedia</a>) is a free and open source software for preparation of molecular structures for electrostatic calculation.</p>
 <p>PDB2PQR is available in <a class="reference external" href="https://aur.archlinux.org/packages/pdb2pqr/">Arch User Repository</a> and <a class="reference external" href="https://tracker.debian.org/pkg/pdb2pqr">Debian</a>, but not in Fedora.</p>
-</div>
-<div class="section" id="autodock-and-autodock-vina">
-<span id="software-autodock-vina"></span><h3><a class="toc-backref" href="#id60">AutoDock and AutoDock Vina</a><a class="headerlink" href="#autodock-and-autodock-vina" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-autodock-vina"></span><h3 id="autodock-and-autodock-vina"><a class="toc-backref" href="#id60">AutoDock and AutoDock Vina</a><a class="headerlink" href="#autodock-and-autodock-vina" title="Permalink to this headline">¶</a></h3>
 <p><strong>AutoDock</strong> (<a class="reference external" href="https://autodock.scripps.edu/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/AutoDock">Wikipedia</a>) and <strong>AutoDock Vina</strong> (<a class="reference external" href="https://vina.scripps.edu/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/AutoDock_Vina">Wikipedia</a>) are free and open source protein-ligand docking software packages.</p>
 <p>AutoDock is available as a package in <a class="reference external" href="https://tracker.debian.org/pkg/autodocksuite">Debian</a> and <a class="reference external" href="https://apps.fedoraproject.org/packages/autodocksuite">Fedora</a>, but not in Arch Linux. AudoDock Vina is available in <a class="reference external" href="https://aur.archlinux.org/packages/autodock-vina/">Arch User Repository</a> and <a class="reference external" href="https://tracker.debian.org/pkg/autodock-vina">Debian</a>, but not in Fedora.</p>
-</div>
-<div class="section" id="rdock-and-rxdock">
-<span id="software-rxdock"></span><h3><a class="toc-backref" href="#id61">rDock and RxDock</a><a class="headerlink" href="#rdock-and-rxdock" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-rxdock"></span><h3 id="rdock-and-rxdock"><a class="toc-backref" href="#id61">rDock and RxDock</a><a class="headerlink" href="#rdock-and-rxdock" title="Permalink to this headline">¶</a></h3>
 <p><strong>rDock</strong> (<a class="reference external" href="https://www.rdock.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/RDock">Wikipedia</a>) and <strong>RxDock</strong> (<a class="reference external" href="https://www.rxdock.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/RxDock">Wikipedia</a>) are free and open source protein-ligand docking software packages designed for high throughput virtual screening.</p>
 <p>rDock and RxDock are not available as packages in Arch Linux, Debian, and Fedora.</p>
-</div>
-<div class="section" id="gromacs">
-<span id="software-gromacs"></span><h3><a class="toc-backref" href="#id62">GROMACS</a><a class="headerlink" href="#gromacs" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-gromacs"></span><h3 id="gromacs"><a class="toc-backref" href="#id62">GROMACS</a><a class="headerlink" href="#gromacs" title="Permalink to this headline">¶</a></h3>
 <p><strong>GROMACS</strong> (<a class="reference external" href="http://www.gromacs.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/GROMACS">Wikipedia</a>) is a free and open source molecular dynamics package. It supports classical molecular mechanics and provides interface to a number of quantum mechanics software packages.</p>
 <p>GROMACS is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/gromacs/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/gromacs">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/gromacs">Fedora</a>.</p>
-<div class="section" id="id4">
-<h4>Specific uses<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+
+<h4 id="id4">Specific uses<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.mdtutorials.com/gmx/complex/">Protein-Ligand Complex</a></p></li>
 <li><p><a class="reference external" href="http://www.mdtutorials.com/gmx/umbrella/">Umbrella Sampling</a></p></li>
 <li><p><a class="reference external" href="http://cgmartini.nl/">Coarse Grained</a> (proteins in lipid bilayers, protein-protein interactions, protein kinases)</p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="namd">
-<span id="software-namd"></span><h3><a class="toc-backref" href="#id63">NAMD</a><a class="headerlink" href="#namd" title="Permalink to this headline">¶</a></h3>
+
+
+
+<span id="software-namd"></span><h3 id="namd"><a class="toc-backref" href="#id63">NAMD</a><a class="headerlink" href="#namd" title="Permalink to this headline">¶</a></h3>
 <p><strong>NAMD</strong> (<a class="reference external" href="https://www.ks.uiuc.edu/Research/namd/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/NAMD">Wikipedia</a>) is a freely available molecular dynamics package.</p>
 <p>NAMD is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/namd/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-</div>
-<div class="section" id="plumed">
-<span id="software-plumed"></span><h3><a class="toc-backref" href="#id64">PLUMED</a><a class="headerlink" href="#plumed" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-plumed"></span><h3 id="plumed"><a class="toc-backref" href="#id64">PLUMED</a><a class="headerlink" href="#plumed" title="Permalink to this headline">¶</a></h3>
 <p><strong>PLUMED</strong> (<a class="reference external" href="https://www.plumed.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/PLUMED">Wikipedia</a>) is a a free and open source library for free energy calculations in molecular systems.</p>
 <p>PLUMED is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/plumed/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-</div>
-<div class="section" id="cp2k">
-<span id="software-cp2k"></span><h3><a class="toc-backref" href="#id65">CP2K</a><a class="headerlink" href="#cp2k" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-cp2k"></span><h3 id="cp2k"><a class="toc-backref" href="#id65">CP2K</a><a class="headerlink" href="#cp2k" title="Permalink to this headline">¶</a></h3>
 <p><strong>CP2K</strong> (<a class="reference external" href="https://www.cp2k.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/CP2K">Wikipedia</a>) is a free and open source molecular dynamics package. It supports both quantum and classical molecular mechanics, and allows using both of them in the same simulation with QM/MM.</p>
 <p>CP2K is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/cp2k/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/cp2k">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/cp2k">Fedora</a>.</p>
-<div class="section" id="id5">
-<h4>Specific uses<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+
+<h4 id="id5">Specific uses<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.cp2k.org/exercises:2015_ethz_mmm:nudged_elastic_band">Nudged Elastic Band</a></p></li>
 <li><p><a class="reference external" href="https://www.cp2k.org/exercises:2015_uzh_molsim:chp_cu111">QM/MM</a></p></li>
 </ul>
-</div>
-</div>
-<div class="section" id="nwchem">
-<span id="software-nwchem"></span><h3><a class="toc-backref" href="#id66">NWChem</a><a class="headerlink" href="#nwchem" title="Permalink to this headline">¶</a></h3>
+
+
+
+<span id="software-nwchem"></span><h3 id="nwchem"><a class="toc-backref" href="#id66">NWChem</a><a class="headerlink" href="#nwchem" title="Permalink to this headline">¶</a></h3>
 <p><strong>NWChem</strong> (<a class="reference external" href="https://nwchemgit.github.io/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/NWChem">Wikipedia</a>) is a free and open source molecular dynamics package.</p>
 <p>NWChem is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/nwchem/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/nwchem">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/nwchem">Fedora</a>.</p>
-</div>
-<div class="section" id="gamess-us">
-<span id="software-gamess-us"></span><h3><a class="toc-backref" href="#id67">GAMESS (US)</a><a class="headerlink" href="#gamess-us" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-gamess-us"></span><h3 id="gamess-us"><a class="toc-backref" href="#id67">GAMESS (US)</a><a class="headerlink" href="#gamess-us" title="Permalink to this headline">¶</a></h3>
 <p><strong>GAMESS (US)</strong> (<a class="reference external" href="https://www.msg.chem.iastate.edu/gamess/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/GAMESS_%28US%29">Wikipedia</a>) is a freely available quantum chemistry software.</p>
 <p>GAMESS (US) is  available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/gamess/">Arch User Repository</a>, but not in Debian and Fedora.</p>
-</div>
-</div>
-<div class="section" id="topology-generation-and-file-format-conversion">
-<h2><a class="toc-backref" href="#id30">Topology generation and file format conversion</a><a class="headerlink" href="#topology-generation-and-file-format-conversion" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="topology-generation-and-file-format-conversion"><a class="toc-backref" href="#id30">Topology generation and file format conversion</a><a class="headerlink" href="#topology-generation-and-file-format-conversion" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id6">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -460,21 +610,21 @@
 <li><p><a class="reference internal" href="#open-babel" id="id69">Open Babel</a></p></li>
 </ul>
 </div>
-<div class="section" id="ambertools-and-acpype">
-<span id="software-ambertools-acpype"></span><h3><a class="toc-backref" href="#id68">AmberTools and acpype</a><a class="headerlink" href="#ambertools-and-acpype" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-ambertools-acpype"></span><h3 id="ambertools-and-acpype"><a class="toc-backref" href="#id68">AmberTools and acpype</a><a class="headerlink" href="#ambertools-and-acpype" title="Permalink to this headline">¶</a></h3>
 <p><strong>AmberTools</strong>, a part of <strong>Amber</strong> molecular dynamics package (<a class="reference external" href="https://ambermd.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/AMBER">Wikipedia</a>), is a freely available set of tools for preparation and analysis of molecular dynamics simulations. Many of the tools are free and open source software.</p>
 <p>AmberTools is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/ambertools">Arch User Repository</a>, but not in Debian and Fedora (there is <a class="reference external" href="https://fedoraproject.org/wiki/AmberTools">an effort to package AmberTools for Fedora</a>).</p>
 <p><strong>ACPYPE</strong> (<a class="reference external" href="https://github.com/t-/acpype">homepage</a>, <a class="reference external" href="https://code.google.com/archive/p/acpype/">Google Code archive</a>) is a free and open source software for generation of molecular topologies. It uses <a class="reference external" href="https://ambermd.org/antechamber/antechamber.html">Antechamber and GAFF</a> from AmberTools.</p>
 <p>ACPYPE is not available as a package in Arch Linux, Debian, and Fedora.</p>
-</div>
-<div class="section" id="open-babel">
-<span id="software-open-babel"></span><h3><a class="toc-backref" href="#id69">Open Babel</a><a class="headerlink" href="#open-babel" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-open-babel"></span><h3 id="open-babel"><a class="toc-backref" href="#id69">Open Babel</a><a class="headerlink" href="#open-babel" title="Permalink to this headline">¶</a></h3>
 <p><strong>Open Babel</strong> (<a class="reference external" href="https://openbabel.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Open_Babel">Wikipedia</a>) is free and open source software for conversion between different chemical file formats. It provides both command line and graphical user interfaces.</p>
 <p>Open Babel is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/openbabel/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/openbabel">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/openbabel">Fedora</a>.</p>
-</div>
-</div>
-<div class="section" id="chemical-kinetics-simulation-and-quantitative-molecular-interactions">
-<h2><a class="toc-backref" href="#id33">Chemical kinetics simulation and quantitative molecular interactions</a><a class="headerlink" href="#chemical-kinetics-simulation-and-quantitative-molecular-interactions" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="chemical-kinetics-simulation-and-quantitative-molecular-interactions"><a class="toc-backref" href="#id33">Chemical kinetics simulation and quantitative molecular interactions</a><a class="headerlink" href="#chemical-kinetics-simulation-and-quantitative-molecular-interactions" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id7">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -483,24 +633,24 @@
 <li><p><a class="reference internal" href="#tenua" id="id72">Tenua</a></p></li>
 </ul>
 </div>
-<div class="section" id="kintek-explorer">
-<span id="software-kintek"></span><h3><a class="toc-backref" href="#id70">KinTek Explorer</a><a class="headerlink" href="#kintek-explorer" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-kintek"></span><h3 id="kintek-explorer"><a class="toc-backref" href="#id70">KinTek Explorer</a><a class="headerlink" href="#kintek-explorer" title="Permalink to this headline">¶</a></h3>
 <p><strong>KinTek Explorer</strong> (<a class="reference external" href="https://kintekcorp.com/overview/">homepage</a>) is a proprietary software for chemical kinetic data analysis.</p>
 <p>KinTek Explorer is not available as a package Arch Linux, Debian, and Fedora.</p>
-</div>
-<div class="section" id="copasi">
-<span id="software-copasi"></span><h3><a class="toc-backref" href="#id71">COPASI</a><a class="headerlink" href="#copasi" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-copasi"></span><h3 id="copasi"><a class="toc-backref" href="#id71">COPASI</a><a class="headerlink" href="#copasi" title="Permalink to this headline">¶</a></h3>
 <p><strong>COPASI</strong> (<a class="reference external" href="http://copasi.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/COPASI">Wikipedia</a>) is a free and open source software for simulation and analysis of biochemical networks and their dynamics.</p>
 <p>COPASI is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/copasi/">Arch User Repository</a> and <a class="reference external" href="https://apps.fedoraproject.org/packages/COPASI">Fedora</a>, but not in Debian.</p>
-</div>
-<div class="section" id="tenua">
-<span id="software-tenua"></span><h3><a class="toc-backref" href="#id72">Tenua</a><a class="headerlink" href="#tenua" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-tenua"></span><h3 id="tenua"><a class="toc-backref" href="#id72">Tenua</a><a class="headerlink" href="#tenua" title="Permalink to this headline">¶</a></h3>
 <p><strong>Tenua</strong> (<a class="reference external" href="http://bililite.com/tenua/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Tenua">Wikipedia</a>) is a free and open source software for chemical kinetics simulation.</p>
 <p>Tenua is not available as a package in Arch Linux, Debian, and Fedora.</p>
-</div>
-</div>
-<div class="section" id="data-processing-and-visualization">
-<h2><a class="toc-backref" href="#id37">Data processing and visualization</a><a class="headerlink" href="#data-processing-and-visualization" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="data-processing-and-visualization"><a class="toc-backref" href="#id37">Data processing and visualization</a><a class="headerlink" href="#data-processing-and-visualization" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id8">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -511,36 +661,36 @@
 <li><p><a class="reference internal" href="#scidavis" id="id77">SciDAVis</a></p></li>
 </ul>
 </div>
-<div class="section" id="r-and-bio3d">
-<span id="software-r-bio3d"></span><h3><a class="toc-backref" href="#id73">R and Bio3D</a><a class="headerlink" href="#r-and-bio3d" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-r-bio3d"></span><h3 id="r-and-bio3d"><a class="toc-backref" href="#id73">R and Bio3D</a><a class="headerlink" href="#r-and-bio3d" title="Permalink to this headline">¶</a></h3>
 <p><strong>R</strong> (<a class="reference external" href="https://www.r-project.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/R_%28programming_language%29">Wikipedia</a>) is a free and open source software environment and a programming language for statistical computing.</p>
 <p>R is available as a package in, <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/r/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/r-base">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/R">Fedora</a>.</p>
 <p><strong>Bio3D</strong> (<a class="reference external" href="http://thegrantlab.org/bio3d/">homepage</a>) is an R package for analyzing the protein sequence, structure, and trajectory data.</p>
 <p>Bio3D is available as a package in <a class="reference external" href="https://tracker.debian.org/pkg/r-cran-bio3d">Debian</a>, but not in Arch Linux and Fedora.</p>
-</div>
-<div class="section" id="maxima">
-<span id="software-maxima"></span><h3><a class="toc-backref" href="#id74">Maxima</a><a class="headerlink" href="#maxima" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-maxima"></span><h3 id="maxima"><a class="toc-backref" href="#id74">Maxima</a><a class="headerlink" href="#maxima" title="Permalink to this headline">¶</a></h3>
 <p><strong>Maxima</strong> (<a class="reference external" href="https://maxima.sourceforge.io/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Maxima_%28software%29">Wikipedia</a>) is a free and open source computer algebra system.</p>
 <p>Maxima is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/maxima/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/maxima">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/maxima">Fedora</a>.</p>
-</div>
-<div class="section" id="libreoffice-calc">
-<span id="software-libreoffice-calc"></span><h3><a class="toc-backref" href="#id75">LibreOffice Calc</a><a class="headerlink" href="#libreoffice-calc" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-libreoffice-calc"></span><h3 id="libreoffice-calc"><a class="toc-backref" href="#id75">LibreOffice Calc</a><a class="headerlink" href="#libreoffice-calc" title="Permalink to this headline">¶</a></h3>
 <p><strong>LibreOffice</strong> (<a class="reference external" href="https://www.libreoffice.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/LibreOffice">Wikipedia</a>) is a free and open source office suite. The spreadsheet component is called <a class="reference external" href="https://www.libreoffice.org/discover/calc/">Calc</a>.</p>
 <p>LibreOffice is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/libreoffice-fresh/">Arch Linux</a> (<a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/libreoffice-still/">still branch</a>), <a class="reference external" href="https://tracker.debian.org/pkg/libreoffice">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/libreoffice">Fedora</a>.</p>
-</div>
-<div class="section" id="gnuplot">
-<span id="software-gnuplot"></span><h3><a class="toc-backref" href="#id76">gnuplot</a><a class="headerlink" href="#gnuplot" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-gnuplot"></span><h3 id="gnuplot"><a class="toc-backref" href="#id76">gnuplot</a><a class="headerlink" href="#gnuplot" title="Permalink to this headline">¶</a></h3>
 <p><strong>gnuplot</strong> (<a class="reference external" href="http://www.gnuplot.info/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Gnuplot">Wikipedia</a>) is a free and open source graphing software.</p>
 <p>Gnuplot is available as a package in, <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/gnuplot/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/gnuplot">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/gnuplot">Fedora</a>.</p>
-</div>
-<div class="section" id="scidavis">
-<span id="software-scidavis"></span><h3><a class="toc-backref" href="#id77">SciDAVis</a><a class="headerlink" href="#scidavis" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-scidavis"></span><h3 id="scidavis"><a class="toc-backref" href="#id77">SciDAVis</a><a class="headerlink" href="#scidavis" title="Permalink to this headline">¶</a></h3>
 <p><strong>SciDAVis</strong> (<a class="reference external" href="http://scidavis.sourceforge.net/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/SciDAVis">Wikipedia</a>) is a free and open source visualization software.</p>
 <p>SciDAVis is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/scidavis/">Arch User Repository</a>, <a class="reference external" href="https://tracker.debian.org/pkg/scidavis">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/scidavis">Fedora</a>.</p>
-</div>
-</div>
-<div class="section" id="laboratory-protocols-methods-notes-and-other-documentation">
-<h2><a class="toc-backref" href="#id43">Laboratory protocols, methods, notes, and other documentation</a><a class="headerlink" href="#laboratory-protocols-methods-notes-and-other-documentation" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="laboratory-protocols-methods-notes-and-other-documentation"><a class="toc-backref" href="#id43">Laboratory protocols, methods, notes, and other documentation</a><a class="headerlink" href="#laboratory-protocols-methods-notes-and-other-documentation" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id9">
 <p class="topic-title">List of software</p>
 <ul class="simple">
@@ -551,66 +701,106 @@
 <li><p><a class="reference internal" href="#font-awesome" id="id82">Font Awesome</a></p></li>
 </ul>
 </div>
-<div class="section" id="docutils-and-sphinx">
-<span id="software-docutils-sphinx"></span><h3><a class="toc-backref" href="#id78">Docutils and Sphinx</a><a class="headerlink" href="#docutils-and-sphinx" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-docutils-sphinx"></span><h3 id="docutils-and-sphinx"><a class="toc-backref" href="#id78">Docutils and Sphinx</a><a class="headerlink" href="#docutils-and-sphinx" title="Permalink to this headline">¶</a></h3>
 <p><strong>Docutils</strong> (<a class="reference external" href="https://docutils.sourceforge.io/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/ReStructuredText">Wikipedia</a>) is a free and open source text processing software for converting plaintext-like <a class="reference external" href="https://docutils.sourceforge.io/rst.html">reStructuredText</a> into LaTeX/PDF and HTML.</p>
 <p>Docutils are available as a package in <a class="reference external" href="https://www.archlinux.org/packages/community/any/python-docutils/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/python-docutils">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/python-docutils">Fedora</a>.</p>
 <p><strong>Sphinx</strong> (<a class="reference external" href="https://www.sphinx-doc.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Sphinx_%28documentation_generator%29">Wikipedia</a>) is a free and open source documentation generator that builds on top od Docutils and makes it easy to create beautiful documentation.</p>
 <p>Sphinx is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/community/any/python-sphinx/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/sphinx">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/python-sphinx">Fedora</a>.</p>
-</div>
-<div class="section" id="pandoc">
-<span id="software-pandoc"></span><h3><a class="toc-backref" href="#id79">Pandoc</a><a class="headerlink" href="#pandoc" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-pandoc"></span><h3 id="pandoc"><a class="toc-backref" href="#id79">Pandoc</a><a class="headerlink" href="#pandoc" title="Permalink to this headline">¶</a></h3>
 <p><strong>Pandoc</strong> (<a class="reference external" href="https://pandoc.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Pandoc">Wikipedia</a>) is a free and open source document converter between different markup formats.</p>
 <p>Pandoc is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/community/x86_64/pandoc/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/pandoc">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/pandoc">Fedora</a>.</p>
-</div>
-<div class="section" id="libreoffice-writer">
-<span id="software-libreoffice-writer"></span><h3><a class="toc-backref" href="#id80">LibreOffice Writer</a><a class="headerlink" href="#libreoffice-writer" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-libreoffice-writer"></span><h3 id="libreoffice-writer"><a class="toc-backref" href="#id80">LibreOffice Writer</a><a class="headerlink" href="#libreoffice-writer" title="Permalink to this headline">¶</a></h3>
 <p><strong>LibreOffice</strong> (<a class="reference external" href="https://www.libreoffice.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/LibreOffice">Wikipedia</a>) is a free and open source office suite. The word processor component is called <a class="reference external" href="https://www.libreoffice.org/discover/writer/">Writer</a>.</p>
 <p>LibreOffice is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/libreoffice-fresh/">Arch Linux</a> (<a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/libreoffice-still/">still branch</a>), <a class="reference external" href="https://tracker.debian.org/pkg/libreoffice">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/libreoffice">Fedora</a>.</p>
-</div>
-<div class="section" id="graphviz">
-<span id="software-graphviz"></span><h3><a class="toc-backref" href="#id81">Graphviz</a><a class="headerlink" href="#graphviz" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-graphviz"></span><h3 id="graphviz"><a class="toc-backref" href="#id81">Graphviz</a><a class="headerlink" href="#graphviz" title="Permalink to this headline">¶</a></h3>
 <p><strong>Graphviz</strong> (<a class="reference external" href="https://www.graphviz.org/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Graphviz">Wikipedia</a>) is a free and open source graph visualization software initially developed by <a class="reference external" href="https://about.att.com/innovation/labs">AT&amp;T Labs</a>.</p>
 <p>Graphviz is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/extra/x86_64/graphviz/">Arch Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/graphviz">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/graphviz">Fedora</a>.</p>
-</div>
-<div class="section" id="font-awesome">
-<span id="software-font-awesome"></span><h3><a class="toc-backref" href="#id82">Font Awesome</a><a class="headerlink" href="#font-awesome" title="Permalink to this headline">¶</a></h3>
+
+
+<span id="software-font-awesome"></span><h3 id="font-awesome"><a class="toc-backref" href="#id82">Font Awesome</a><a class="headerlink" href="#font-awesome" title="Permalink to this headline">¶</a></h3>
 <p><strong>Font Awesome</strong> (<a class="reference external" href="https://fontawesome.com/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Font_Awesome">Wikipedia</a>) is a free and open source set of icons <a class="reference external" href="https://fontawesome.com/license">licensed under the terms of Creative Commons Attribution 4.0 license</a>.</p>
 <p>Font Awesome is available as a package in <a class="reference external" href="https://www.archlinux.org/packages/community/any/ttf-font-awesome/">Arch</a> <a class="reference external" href="https://www.archlinux.org/packages/community/any/otf-font-awesome/">Linux</a>, <a class="reference external" href="https://tracker.debian.org/pkg/fonts-font-awesome">Debian</a>, and <a class="reference external" href="https://apps.fedoraproject.org/packages/fontawesome-fonts">Fedora</a>.</p>
-</div>
-</div>
-<div class="section" id="software-development">
-<h2><a class="toc-backref" href="#id49">Software development</a><a class="headerlink" href="#software-development" title="Permalink to this headline">¶</a></h2>
+
+
+
+<h2 id="software-development"><a class="toc-backref" href="#id49">Software development</a><a class="headerlink" href="#software-development" title="Permalink to this headline">¶</a></h2>
 <div class="contents local topic" id="id10">
 <p class="topic-title">List of software</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#visual-studio-code" id="id83">Visual Studio Code</a></p></li>
 </ul>
 </div>
-<div class="section" id="visual-studio-code">
-<span id="software-vs-code"></span><h3><a class="toc-backref" href="#id83">Visual Studio Code</a><a class="headerlink" href="#visual-studio-code" title="Permalink to this headline">¶</a></h3>
+
+<span id="software-vs-code"></span><h3 id="visual-studio-code"><a class="toc-backref" href="#id83">Visual Studio Code</a><a class="headerlink" href="#visual-studio-code" title="Permalink to this headline">¶</a></h3>
 <p><strong>Visual Studio Code</strong> (<a class="reference external" href="https://code.visualstudio.com/">homepage</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Visual_Studio_Code">Wikipedia</a>) is a proprietary source-code editor built on a number of free and open source software projects. Notable extensions are <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python">Python for Visual Studio Code</a> and <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools">C/C++ for Visual Studio Code</a>.</p>
 <p>Visual Studio Code is available as a package in <a class="reference external" href="https://aur.archlinux.org/packages/visual-studio-code-bin/">Arch User Repository</a>, but not in Debian and Fedora. Official binaries for Debian and Fedora (among others) are <a class="reference external" href="https://code.visualstudio.com/Download">provided by Microsoft</a>.</p>
-</div>
-</div>
-</div>
 
 
+
+
+
+          </article>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer class="md-footer">
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+          
+            <a href="../projects/" title="Projects"
+               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
+               rel="prev">
+              <div class="md-flex__cell md-flex__cell--shrink">
+                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+              </div>
+              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+                <span class="md-flex__ellipsis">
+                  <span
+                      class="md-footer-nav__direction"> Previous </span> Projects </span>
+              </div>
+            </a>
+          
+          
+            <a href="../teaching/" title="Teaching"
+               class="md-flex md-footer-nav__link md-footer-nav__link--next"
+               rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span
+                class="md-flex__ellipsis"> <span
+                class="md-footer-nav__direction"> Next </span> Teaching </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink"><i
+                class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          
+        </a>
+        
+      </nav>
     </div>
-      
-  </div>
-</div>
-<footer class="footer">
-  <div class="container">
-    <p class="pull-right">
-      <a href="#">Back to top</a>
-      
-    </p>
-    <p>
-        &copy; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.1.2.<br/>
-    </p>
-  </div>
-</footer>
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+          <div class="md-footer-copyright__highlight">
+              &#169; Copyright 2015 – 2021, Željko Svedružić | Zeljko M. Svedruzic.
+              
+          </div>
+            Created using
+            <a href="http://www.sphinx-doc.org/">Sphinx</a> 4.1.2.
+             and
+            <a href="https://github.com/bashtage/sphinx-material/">Material for
+              Sphinx</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="../_static/javascripts/application.js"></script>
+  <script>app.initialize({version: "1.0.4", url: {base: ".."}})</script>
   </body>
 </html>
