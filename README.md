@@ -17,7 +17,7 @@ $ pip install sphinx sphinx_material
 Clone the repository:
 
 ``` shell
-$ https://github.com/svedruziclab/svedruziclab.github.io
+$ git clone https://github.com/svedruziclab/svedruziclab.github.io
 ```
 
 ## Editing the contents
